@@ -1,0 +1,648 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Heritage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-29 08:14+0000\n"
+"PO-Revision-Date: 2021-07-29 14:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: heritage"
+
+#: templates/archive/blog_masonry.php:35
+msgid "&#32;&#124; by"
+msgstr "&#32;&#124; par"
+
+#: settings/theme_settings.php:830
+msgid "3 Columns"
+msgstr ""
+
+#: settings/theme_settings.php:831
+msgid "4 Columns"
+msgstr ""
+
+#: settings/theme_settings.php:832
+msgid "5 Columns"
+msgstr ""
+
+#: core/woocommerce_support.php:439
+msgid "Add new Size"
+msgstr ""
+
+#: core/woocommerce_support.php:434
+msgid "All Sizes"
+msgstr ""
+
+#: templates/login-popup.php:114
+msgid "Anti-spam"
+msgstr ""
+
+#: core/register_theme_sidebars.php:12 core/register_theme_sidebars.php:24
+#: core/register_theme_sidebars.php:35 core/register_theme_sidebars.php:47
+msgid "Appears in the footer area"
+msgstr ""
+
+#: woocommerce/cart/cart.php:175
+msgid "Apply Coupon"
+msgstr ""
+
+#: templates/heading_area.php:84
+msgid "Author: "
+msgstr "Auteur:"
+
+#: woocommerce/cart/cart.php:89
+msgid "Available on backorder"
+msgstr ""
+
+#: core/woocommerce_support.php:278 core/woocommerce_support.php:280
+#: woocommerce/single-product/product-image.php:77
+#: woocommerce/single-product/product-image.php:79
+msgid "Awaiting product image"
+msgstr ""
+
+#: templates/login-popup.php:132
+msgid "Back to Login"
+msgstr ""
+
+#: settings/theme_settings.php:751
+msgid "Background color for the copyright text area."
+msgstr ""
+
+#: settings/theme_settings.php:560
+msgid "Black on White"
+msgstr ""
+
+#: settings/theme_settings.php:569
+msgid "Black On White - black text on white background."
+msgstr ""
+
+#: template-contact.php:21
+msgid "Call <strong>Us</strong>"
+msgstr "Contacter <strong>Nous</strong>"
+
+#: templates/utils/ajax_contact_form.php:35
+msgid ""
+"Cannot send mail, an error occurred while delivering this message. Please "
+"try again later."
+msgstr ""
+
+#: settings/theme_settings.php:541
+msgid "Centered Menu"
+msgstr ""
+
+#: settings/theme_settings.php:195
+msgid "Change WooCommerce shop related settings."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:79
+msgid "Checkout"
+msgstr ""
+
+#: settings/theme_settings.php:294
+msgid "Choose default color scheme"
+msgstr ""
+
+#: settings/theme_settings.php:289
+msgid "Choose menu style"
+msgstr ""
+
+#: settings/theme_settings.php:542
+msgid "Classic Doubled Menu"
+msgstr ""
+
+#: settings/theme_settings.php:540
+msgid "Classic Menu"
+msgstr ""
+
+#: core/woocommerce_support.php:204
+msgid "Clear Shopping Cart"
+msgstr "Supprimer le panier"
+
+#: settings/theme_settings.php:734
+msgid ""
+"Color overlay for the footer widgets area. Can be used as background color "
+"or as color over the background image."
+msgstr ""
+
+#: settings/theme_settings.php:365 settings/theme_settings.php:427
+msgid "Contact address"
+msgstr ""
+
+#: settings/theme_settings.php:380 settings/theme_settings.php:442
+msgid "Contact E-mail"
+msgstr ""
+
+#: settings/theme_settings.php:375 settings/theme_settings.php:437
+msgid "Contact Fax Number"
+msgstr ""
+
+#: settings/theme_settings.php:108
+msgid "Contact Options"
+msgstr ""
+
+#: settings/theme_settings.php:370 settings/theme_settings.php:432
+msgid "Contact phones"
+msgstr ""
+
+#: woocommerce/cart/cart.php:171
+msgid "Coupon discount"
+msgstr ""
+
+#: settings/theme_settings.php:539
+msgid "Creative Menu"
+msgstr ""
+
+#: settings/theme_settings.php:568
+msgid "Default color scheme used for the website content."
+msgstr ""
+
+#: settings/theme_settings.php:586 settings/theme_settings.php:605
+#: settings/theme_settings.php:626 settings/theme_settings.php:708
+msgid "Disabled"
+msgstr ""
+
+#: woocommerce/cart/cart.php:125
+msgid "Edit"
+msgstr "Modifier"
+
+#: core/woocommerce_support.php:437
+msgid "Edit Size"
+msgstr ""
+
+#: template-contact.php:22
+msgid "Email"
+msgstr ""
+
+#: templates/utils/ajax_contact_form.php:14
+msgid "Email "
+msgstr ""
+
+#: templates/login-popup.php:96
+msgid "Email address"
+msgstr ""
+
+#: settings/theme_settings.php:309
+msgid "Enable back to top button"
+msgstr ""
+
+#: settings/theme_settings.php:633
+msgid "Enable or disable back to top button."
+msgstr ""
+
+#: settings/theme_settings.php:612
+msgid "Enable or disable login popup on frontend"
+msgstr ""
+
+#: settings/theme_settings.php:593
+msgid ""
+"Enable or disable sticky menu bar. If enabled, menu will stay on top whyle "
+"the user moves the scrollbar."
+msgstr ""
+
+#: settings/theme_settings.php:299
+msgid "Enable sticky menu"
+msgstr ""
+
+#: settings/theme_settings.php:585 settings/theme_settings.php:604
+#: settings/theme_settings.php:625 settings/theme_settings.php:707
+msgid "Enabled"
+msgstr ""
+
+#: woocommerce/cart/cart.php:174
+msgid "Enter your coupon code if you have one"
+msgstr ""
+
+#: settings/theme_settings.php:327
+msgid "Facebook URL"
+msgstr ""
+
+#: settings/theme_settings.php:101
+msgid "Footer Options"
+msgstr ""
+
+#: core/register_theme_sidebars.php:10
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: core/register_theme_sidebars.php:22
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: core/register_theme_sidebars.php:33
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: core/register_theme_sidebars.php:45
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: settings/theme_settings.php:494
+msgid ""
+"For your WordPress version, the Upload custom favicon option will be ignored,"
+" the one from customizer will be used."
+msgstr ""
+
+#: settings/theme_settings.php:88
+msgid "General Options"
+msgstr ""
+
+#: settings/theme_settings.php:337
+msgid "Google+ URL"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:132
+msgid "Grand Total"
+msgstr ""
+
+#: settings/theme_settings.php:806
+msgid "Grid"
+msgstr "Grille"
+
+#. Name of the theme
+#. Author of the theme
+msgid "Heritage"
+msgstr ""
+
+#: settings/theme_settings.php:490
+msgid ""
+"Hi, your WordPress version is higher than 4.3 and allows you to use the "
+"built in WordPress functionality related to custom favicon."
+msgstr ""
+
+#: settings/theme_settings.php:571
+msgid ""
+"If you change this value, you might need to change the background color or "
+"image for your website according to the color scheme."
+msgstr ""
+
+#: settings/theme_settings.php:807
+msgid "List"
+msgstr "Liste"
+
+#: templates/login-popup.php:20
+msgid "Log in"
+msgstr ""
+
+#: templates/login-popup.php:25
+msgid "Log in your account"
+msgstr ""
+
+#: templates/login-popup.php:57
+msgid "Login"
+msgstr ""
+
+#: templates/menu/creative_menu.php:87
+msgid "Login &#47; Signup"
+msgstr ""
+
+#: templates/menu/classic_double_menu.php:117
+#: templates/menu/classic_menu.php:105 templates/menu/classic_menu.php:105
+msgid "Login / Register"
+msgstr ""
+
+#: settings/theme_settings.php:304
+msgid "Login Popup"
+msgstr ""
+
+#: core/theme_setup.php:18
+msgid "Main menu"
+msgstr ""
+
+#: templates/utils/ajax_contact_form.php:23
+msgid "Message "
+msgstr ""
+
+#: templates/menu/classic_double_menu.php:113
+#: templates/menu/classic_menu.php:101 templates/menu/classic_menu.php:101
+#: templates/menu/creative_menu.php:83 templates/menu/creative_menu.php:83
+msgid "My Account"
+msgstr "Mon Compte"
+
+#: core/woocommerce_support.php:440
+msgid "New Size"
+msgstr "Nouvelle Taille"
+
+#: woocommerce/cart/mini-cart.php:65
+msgid "No products in the cart."
+msgstr ""
+
+#: templates/login-popup.php:68
+msgid "Not a member?"
+msgstr "Pas encore membre ?"
+
+#. Name of the template
+msgid "Page Contact"
+msgstr "Page de Contact"
+
+#: core/woocommerce_support.php:435
+msgid "Parent Size"
+msgstr ""
+
+#: core/woocommerce_support.php:436
+msgid "Parent Size:"
+msgstr ""
+
+#: templates/login-popup.php:106
+msgid "Password"
+msgstr "Mot de passe"
+
+#: templates/utils/ajax_contact_form.php:19
+msgid "Phone "
+msgstr "Téléphone"
+
+#: settings/theme_settings.php:347
+msgid "Pinterest URL"
+msgstr ""
+
+#: settings/theme_settings.php:716
+msgid "Place social profiles icons on copyright area."
+msgstr ""
+
+#: templates/utils/ajax_contact_form.php:15
+msgid "Please enter a correct email address"
+msgstr "Veuillez entrer une adresse email valide"
+
+#: templates/utils/ajax_contact_form.php:24
+msgid "Please enter a message"
+msgstr "Veuillez entrer un message"
+
+#: templates/utils/ajax_contact_form.php:11
+msgid "Please enter your name"
+msgstr "Veuillez entrer votre nom"
+
+#: settings/theme_settings.php:492
+msgid ""
+"Please go to Appearance - Customize - Site Identity and choose the favicon "
+"from that place."
+msgstr ""
+
+#: settings/theme_settings.php:187
+msgid "Please insert your contact information."
+msgstr ""
+
+#: settings/theme_settings.php:717
+msgid "Please make sure that copyright text is filled in the above field."
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:94
+msgid "Price"
+msgstr "Prix"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:76
+msgid "Product"
+msgstr ""
+
+#: core/woocommerce_support.php:363
+msgid "Product not available"
+msgstr "Produit non disponible"
+
+#: core/woocommerce_support.php:402
+msgid "Product was not found"
+msgstr "Produit introuvable"
+
+#: settings/theme_settings.php:466
+msgid "Products Per Row"
+msgstr "Produits par ligne"
+
+#: settings/theme_settings.php:461
+msgid "Products View Mode"
+msgstr ""
+
+#: settings/theme_settings.php:171
+msgid "Provide the URL to the social profiles you would like to display."
+msgstr ""
+
+#: core/woocommerce_support.php:231 woocommerce/cart/mini-cart.php:54
+msgid "Qty"
+msgstr "Quantité"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:100
+msgid "Quantity"
+msgstr "Quantité"
+
+#: core/woocommerce_support.php:328
+msgid "Quick View"
+msgstr "Aperçu"
+
+#: templates/archive/blog_masonry.php:56
+msgid "Read more"
+msgstr "Voir plus"
+
+#: templates/login-popup.php:21 templates/login-popup.php:124
+msgid "Register"
+msgstr "S'inscrire"
+
+#: templates/login-popup.php:69
+msgid "Register now"
+msgstr "S'inscrire maintenant"
+
+#: templates/login-popup.php:76
+msgid "Register with us"
+msgstr ""
+
+#: templates/login-popup.php:49
+msgid "Remember me"
+msgstr "Se souvenir de moi"
+
+#: woocommerce/cart/cart.php:132 woocommerce/cart/cart.php:135
+#: woocommerce/checkout/review-order.php:69
+msgid "Remove"
+msgstr "Supprimer"
+
+#: settings/theme_settings.php:504
+msgid "Remove Favicon"
+msgstr ""
+
+#: settings/theme_settings.php:521
+msgid "Remove Image"
+msgstr ""
+
+#: settings/theme_settings.php:256
+msgid "Remove Logo"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:45 woocommerce/checkout/review-order.php:66
+msgid "Remove this item"
+msgstr ""
+
+#: core/woocommerce_support.php:433
+msgid "Search Size"
+msgstr ""
+
+#: settings/theme_settings.php:841
+msgid "Select number of products per row in products lists (grid mode)"
+msgstr ""
+
+#: settings/theme_settings.php:816
+msgid "Select product list view mode"
+msgstr ""
+
+#: templates/utils/ajax_contact_form.php:43
+msgid "Send"
+msgstr "Envoyer"
+
+#: settings/theme_settings.php:153
+msgid "Setup custom logo and favicon."
+msgstr ""
+
+#: settings/theme_settings.php:179
+msgid ""
+"Setup footer text for the copyright area, footer text URL and analytics code."
+" Also setup the footer widget area."
+msgstr ""
+
+#: templates/utils/sharing_icons.php:14
+msgid "Share via:"
+msgstr "Partager via:"
+
+#: settings/theme_settings.php:115
+msgid "Shop Options"
+msgstr "Options Boutique"
+
+#: core/woocommerce_support.php:431 core/woocommerce_support.php:432
+msgid "Size"
+msgstr "Taille"
+
+#: settings/theme_settings.php:94
+msgid "Social Options"
+msgstr ""
+
+#: index.php:38 page.php:30
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucun résultat pour votre recherche."
+
+#: index.php:36
+msgid ""
+"Sorry, no results were found matching your search criteria. Please try "
+"something else."
+msgstr ""
+"Désolé, nous n'avons rien trouvé concernant votre recherche, essayez autre "
+"chose."
+
+#: woocommerce/cart/mini-cart.php:72 woocommerce/checkout/review-order.php:85
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: settings/theme_settings.php:786
+msgid "This is the email address shown on contact page."
+msgstr ""
+
+#: settings/theme_settings.php:496
+msgid "This option exists only for backward compatibility reasons."
+msgstr ""
+
+#: settings/theme_settings.php:788
+msgid ""
+"To set the recipient email for the contact form, please go to Settings - "
+"Heritage Core Settings."
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:117
+msgid "Total"
+msgstr ""
+
+#: settings/theme_settings.php:332
+msgid "Twitter URL"
+msgstr ""
+
+#: woocommerce/cart/cart.php:152
+msgid "Update Cart"
+msgstr "Mettre à jour le panier"
+
+#: core/woocommerce_support.php:438
+msgid "Update Size"
+msgstr "Mettre à jour la taille"
+
+#: settings/theme_settings.php:523
+msgid "Upload a custom background image for inner pages."
+msgstr ""
+
+#: settings/theme_settings.php:506
+msgid "Upload a custom favicon image."
+msgstr ""
+
+#: settings/theme_settings.php:258
+msgid "Upload a custom logo image."
+msgstr ""
+
+#: settings/theme_settings.php:284
+msgid "Upload custom background image"
+msgstr ""
+
+#: settings/theme_settings.php:279
+msgid "Upload custom favicon"
+msgstr ""
+
+#: settings/theme_settings.php:503
+msgid "Upload Favicon"
+msgstr ""
+
+#: settings/theme_settings.php:520
+msgid "Upload Image"
+msgstr ""
+
+#: settings/theme_settings.php:255
+msgid "Upload Logo"
+msgstr ""
+
+#: settings/theme_settings.php:273
+msgid "Upload logo image"
+msgstr ""
+
+#: templates/login-popup.php:86
+msgid "Username"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:78
+msgid "View Cart"
+msgstr ""
+
+#: templates/menu/centered_menu.php:84
+#: templates/menu/classic_double_menu.php:39 templates/menu/classic_menu.php:66
+#: templates/menu/creative_menu.php:60
+msgid "View your shopping cart"
+msgstr ""
+
+#: template-contact.php:20
+msgid "Visit <strong>Us</strong>"
+msgstr ""
+
+#: templates/heading_area.php:96
+msgid "Webzine"
+msgstr ""
+
+#: settings/theme_settings.php:559
+msgid "White On Black"
+msgstr ""
+
+#: settings/theme_settings.php:570
+msgid "White On Black - white text on black background."
+msgstr ""
+
+#. Description of the theme
+msgid "Wordpress WooCommerce Theme"
+msgstr ""
+
+#: settings/theme_settings.php:572
+msgid ""
+"You can change the background color for your website from Appearance - "
+"Customize - Colors."
+msgstr ""
+
+#: templates/utils/ajax_contact_form.php:39
+msgid "Your message was sent successfully. Thanks!"
+msgstr ""
+
+#: templates/utils/ajax_contact_form.php:10
+msgid "Your Name "
+msgstr ""
+
+#: settings/theme_settings.php:342
+msgid "YouTube URL"
+msgstr ""
