@@ -112,9 +112,7 @@ if (is_single() || is_page_template("default") || is_page_template("template-sid
     $show_title_on_header = false;
 
     if (HERITAGE_is_woocommerce_active() && is_product()) {
-        //if ("type_2" == heritage_SWP_get_product_page_template()) {
-            $show_title_on_header = true;
-        //}
+            $show_title_on_header = false;
     }
 }
 

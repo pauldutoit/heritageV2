@@ -5155,11 +5155,11 @@ header.sticky_enabled.header_classic_double_menu .at_wishlist .heritage-swp-mini
 
 .heritage_template-default .gallery-unslider-arrow .fa,
 .gallery-unslider-arrow,
-.gallery-unslider-arrow .at_swp_slider_prev_next_text {
+.gallery-unslider-arrow .at_heritage_slider_prev_next_text {
     display: none;
 }
 
-.heritage_template-default .gallery-unslider-arrow .at_swp_slider_prev_next_text {
+.heritage_template-default .gallery-unslider-arrow .at_heritage_slider_prev_next_text {
     display: block;
 }
 
@@ -5763,11 +5763,11 @@ header.sticky_enabled.header_classic_double_menu .at_wishlist .heritage-swp-mini
 }
 
 .woocommerce-checkout-review-order-table tfoot tr:not(:first-of-type),
-.woocommerce .heritage-swp-order-thank-you table.shop_table tfoot tr:not(:first-of-type) {
+.woocommerce .heritage-order-thank-you table.shop_table tfoot tr:not(:first-of-type) {
     font-size: 1.2em;
     border-top: 1px dashed;
 }
-.woocommerce .heritage-swp-order-thank-you table.shop_table tfoot th{
+.woocommerce .heritage-order-thank-you table.shop_table tfoot th{
     text-transform : uppercase;
 }
 .woocommerce form.login,

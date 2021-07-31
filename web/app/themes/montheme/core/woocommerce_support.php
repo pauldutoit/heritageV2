@@ -32,12 +32,6 @@ add_action('woocommerce_cart_actions', 'HERITAGE_add_cart_buttons');
 add_action('woocommerce_widget_cart_item_quantity', 'HERITAGE_minicart_quantity', 10, 3);
 
 
-//product image
-add_action('woocommerce_after_product_images','HERITAGE_after_product_images');
-
-
-
-
 function HERITAGE_set_product_view_mode() {
     if ( isset( $_REQUEST['mode'] ) ) {
         $grid_mode = intval( $_REQUEST['mode'] );
@@ -413,6 +407,46 @@ add_action( 'wp_ajax_nopriv_heritage_quick_view', 'HERITAGE_quick_view' );
 
 remove_action('woocommerce_review_before_comment_meta', 'woocommerce_review_display_rating', 10);
 add_action('woocommerce_review_before_comment_text', 'woocommerce_review_display_rating', 10);
+
+
+function HERITAGE_product_tab_heading() {
+    return '';
+}
+function HERITAGE_product_description_tab( $tabs = array() ) {
+    global $post;
+
+    $override_description = get_post_meta( $post->ID, 'lc_swp_meta_override_description', true );
+
+    if ( intval( $override_description, 10 ) ) {
+
+        $custom_description = get_post_meta( $post->ID, 'lc_swp_meta_custom_description', true );
+        if( !$custom_description ) {
+            unset($tabs['description']);
+        }
+        elseif ( isset( $tabs['description'] ) ) {
+            $tabs['description']['callback'] = '';
+        }
+    }
+    if ( isset( $tabs['additional_information'] ) ) {
+        $tabs['additional_information']['title'] = esc_html__('Details', 'heritage');
+    }
+
+    add_filter('woocommerce_product_description_heading', 'HERITAGE_product_tab_heading');
+    add_filter('woocommerce_product_additional_information_heading', 'HERITAGE_product_tab_heading');
+    return $tabs;
+}
+add_filter('woocommerce_product_tabs', 'HERITAGE_product_description_tab', 11);
+
+
+function HERITAGE_product_body_class($classes) {
+    $classes = (array) $classes;
+
+    if( HERITAGE_is_woocommerce_active() && is_product()) {
+        $classes[] = 'heritage_template-default';
+    }
+    return $classes;
+}
+add_filter('body_class', 'HERITAGE_product_body_class');
 
 
 if(!function_exists('HERITAGE_create_size_taxonomy')) {

@@ -83,12 +83,6 @@ heritageStylesheet = heritageStyleElement.sheet;
 var heritageRulesIndexes = [];
 var heritageRulesIdIndexes = [];
 
-var options = {
-    width: 400,
-    zoomWidth: 500
-};
-new ImageZoom(document.getElementById("img-container"), options);
-
 function heritageAddStylesheet ( id, cssText, context ) {
     var foundIndex;
     if ( (foundIndex = heritageRulesIdIndexes.indexOf( id )) > -1 ) {
@@ -904,8 +898,8 @@ var runUnslider = function( $ ) {
 
     gallery.unslider( {
         arrows   : {
-            prev : '<a class="gallery-unslider-arrow prev"><i class="fa fa-angle-left" aria-hidden="true"></i> <span class="at_heritage_slider_prev_next_text">' + 'WSH' + '</span> </a>',
-            next : '<a class="gallery-unslider-arrow next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="at_heritage_slider_prev_next_text">' + 'Yo' + '</span> </a>',
+            prev : '<a class="gallery-unslider-arrow prev"><i class="fa fa-angle-left" aria-hidden="true"></i> <span class="at_heritage_slider_prev_next_text">' + 'PREV' + '</span> </a>',
+            next : '<a class="gallery-unslider-arrow next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="at_heritage_slider_prev_next_text">' + 'NEXT' + '</span> </a>',
         },
         autoplay : false,
         delay    : 10000,

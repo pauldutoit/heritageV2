@@ -32,12 +32,12 @@ if ($attachment_ids && has_post_thumbnail()) {
     $columns = apply_filters('woocommerce_product_thumbnails_columns', 3);
 
     $li_class              = "";
-    //$current_prod_template = heritage_SWP_get_product_page_template();
 
     foreach ($attachment_ids as $attachment_id) {
 
         ?>
-        <li class="thumbnails <?php echo esc_attr('columns-' . $columns) . ' ' . esc_attr($li_class); ?> "><?php
+        <li class="thumbnails <?php echo esc_attr('columns-' . $columns) . ' ' . esc_attr($li_class); ?> ">
+        <?php
         $classes = array();
 
         if ($loop === 0 || $loop % $columns === 0) {
@@ -54,8 +54,7 @@ if ($attachment_ids && has_post_thumbnail()) {
         if (!$props['url']) {
             continue;
         }
-
-        $image_size = 'shop_single';
+            $image_size = 'shop_single';
 
         $attributes = array(
             'title'                   => $props['title'],
@@ -81,6 +80,9 @@ if ($attachment_ids && has_post_thumbnail()) {
         echo apply_filters('woocommerce_single_product_image_thumbnail_html', $html, $attachment_id);
 
         $loop ++;
-        ?></li><?php
+        ?>
+        </li>
+        <?php
     }
 }
+?>
