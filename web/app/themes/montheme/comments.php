@@ -16,7 +16,7 @@ if ( !have_comments() && !comments_open(get_the_ID()) )
 ?>
 <div id="comments">
     <?php if ( post_password_required() ) : ?>
-    <p class="nopassword"><?php esc_html__('This post is password protected. Enter the password to view any comments.', 'artemis-swp'); ?></p>
+    <p class="nopassword"><?php esc_html__('This post is password protected. Enter the password to view any comments.', 'heritage'); ?></p>
 </div><!-- #comments -->
 <?php
 /* Stop the rest of comments.php from being processed,
@@ -35,7 +35,7 @@ endif;
     ?>
     <h3 id="comments-title" class="<?php echo esc_attr($titles_align); ?>">
         <?php
-        echo esc_html__("Comments ", "artemis-swp")."&#40;".get_comments_number()."&#41";
+        echo esc_html__("Comments ", "heritage")."&#40;".get_comments_number()."&#41";
         ?>
 
     </h3>
@@ -50,7 +50,7 @@ endif;
                 )
             );
 
-            previous_comments_link(wp_kses(__('<span class="meta-nav">&larr;</span> Older Comments', 'artemis-swp'), $allowed_tags));
+            previous_comments_link(wp_kses(__('<span class="meta-nav">&larr;</span> Older Comments', 'heritage'), $allowed_tags));
             ?>
         </div>
 
@@ -62,7 +62,7 @@ endif;
                 )
             );
 
-            next_comments_link(wp_kses(__('Newer Comments <span class="meta-nav">&rarr;</span>', 'artemis-swp'), $allowed_tags)); ?>
+            next_comments_link(wp_kses(__('Newer Comments <span class="meta-nav">&rarr;</span>', 'heritage'), $allowed_tags)); ?>
         </div>
     </div> <!-- .navigation -->
 <?php endif; // check for comment navigation ?>
@@ -77,7 +77,7 @@ endif;
          */
         wp_list_comments(
             array(
-                'callback' => 'ARTEMIS_SWP_comment'
+                'callback' => 'HERITAGE_comment'
             )
         );
         ?>
@@ -93,7 +93,7 @@ endif;
                 )
             );
 
-            previous_comments_link(wp_kses(__('<span class="meta-nav">&larr;</span> Older Comments', 'artemis-swp'), $allowed_tags));
+            previous_comments_link(wp_kses(__('<span class="meta-nav">&larr;</span> Older Comments', 'heritage'), $allowed_tags));
             ?>
         </div>
 
@@ -104,7 +104,7 @@ endif;
                     'class'	=> array()
                 )
             );
-            next_comments_link(wp_kses(__( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'artemis-swp' ), $allowed_tags));
+            next_comments_link(wp_kses(__( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'heritage' ), $allowed_tags));
             ?>
         </div>
     </div><!-- .navigation -->
@@ -115,7 +115,7 @@ endif;
      * But we only want the note on posts and pages that had comments in the first place.
      */
     if ( ! comments_open() && get_comments_number() ) : ?>
-        <p class="nocomments"><?php esc_html__( 'Comments are closed.' , 'artemis-swp' ); ?></p>
+        <p class="nocomments"><?php esc_html__( 'Comments are closed.' , 'heritage' ); ?></p>
     <?php endif;  ?>
 
 <?php endif; // end have_comments() ?>
@@ -129,7 +129,7 @@ $cmt_form_class .= ' comment-form'; /*add default comment form class now*/
 
 $commentFormArgs = array(
     'class_form'			=> $cmt_form_class,
-    'title_reply'       	=> esc_html__('Leave a Comment', 'artemis-swp'),
+    'title_reply'       	=> esc_html__('Leave a Comment', 'heritage'),
     'title_reply_before'	=> '<h3 id="reply-title" class="comment-reply-title '.$titles_align.'">',
     'title_reply_after'		=> '</h3>',
     'class_submit'			=> 'lc_button'

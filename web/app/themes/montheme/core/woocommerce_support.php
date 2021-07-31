@@ -434,8 +434,3 @@ if(!function_exists('HERITAGE_create_size_taxonomy')) {
     }
 }
 add_action('init', 'HERITAGE_create_size_taxonomy', 0);
-
-
-
-
-

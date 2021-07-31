@@ -31,6 +31,14 @@ require_once (get_template_directory() . '/core/woocommerce_support.php');
 
 require_once(get_template_directory() . "/core/utils.php");
 
+
+/**
+ *	Comments template function used as callback in wp_list_comments() call in comments.php
+ *	Comment form defaults
+*/
+
+require_once( get_template_directory() . "/core/comments_template_cbk.php" );
+
 /**
  * Menu walker
  */
