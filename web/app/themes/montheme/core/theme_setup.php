@@ -203,4 +203,54 @@ if(!function_exists('HERITAGE_create_cgv_page')) {
 }
 add_action('init', 'HERITAGE_create_cgv_page');
 
+
+if(!function_exists('HERITAGE_create_homepage')) {
+
+    function HERITAGE_create_homepage()
+    {
+        $check_page_exist = get_page_by_title('Homepage', 'OBJECT', 'page');
+        if (empty($check_page_exist)) {
+            $page_id = wp_insert_post(
+                array(
+                    'comment_status' => 'close',
+                    'ping_status' => 'close',
+                    'post_author' => 1,
+                    'post_title' => ucwords('homepage'),
+                    'post_name' => strtolower(str_replace(' ', '-', trim('Homepage'))),
+                    'post_status' => 'publish',
+                    'post_content' => 'Homepage',
+                    'post_type' => 'page',
+                    'post_parent' => NULL
+                )
+            );
+        }
+    }
+}
+add_action('init', 'HERITAGE_create_homepage');
+
+if(!function_exists('HERITAGE_create_articles_page')) {
+
+    function HERITAGE_create_articles_page()
+    {
+        $check_page_exist = get_page_by_title('Articles', 'OBJECT', 'page');
+        if (empty($check_page_exist)) {
+            $page_id = wp_insert_post(
+                array(
+                    'comment_status' => 'close',
+                    'ping_status' => 'close',
+                    'post_author' => 1,
+                    'post_title' => ucwords('articles'),
+                    'post_name' => strtolower(str_replace(' ', '-', trim('Articles'))),
+                    'post_status' => 'publish',
+                    'post_content' => 'Articles',
+                    'post_type' => 'page',
+                    'post_parent' => NULL
+                )
+            );
+        }
+    }
+}
+add_action('init', 'HERITAGE_create_articles_page');
+
+
 ?>
