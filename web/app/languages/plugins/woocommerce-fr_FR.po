@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2021-07-22T16:58:57+00:00\n"
-"PO-Revision-Date: 2021-08-05 09:56+0000\n"
+"PO-Revision-Date: 2021-08-05 12:22+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: fr_FR\n"
@@ -9873,7 +9873,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/all-products-frontend.js:6
 #: packages/woocommerce-blocks/build/all-products.js:1
 msgid "Default sorting"
-msgstr ""
+msgstr "Tri par défaut"
 
 #: includes/customizer/class-wc-shop-customizer.php:313
 #: includes/customizer/class-wc-shop-customizer.php:483
@@ -32635,8 +32635,8 @@ msgstr ""
 #: templates/loop/result-count.php:31
 msgid "Showing all %d result"
 msgid_plural "Showing all %d results"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Affichage de %d résultat"
+msgstr[1] "Affichage des %d résultats"
 
 #: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:97
 #: packages/woocommerce-blocks/build/all-products.js:1
@@ -33740,7 +33740,7 @@ msgstr ""
 
 #: includes/wc-template-functions.php:1404
 msgid "Sort by popularity"
-msgstr ""
+msgstr "Tri par popularité"
 
 #: includes/customizer/class-wc-shop-customizer.php:317
 #: includes/customizer/class-wc-shop-customizer.php:487
@@ -33754,11 +33754,11 @@ msgstr ""
 
 #: includes/wc-template-functions.php:1408
 msgid "Sort by price: high to low"
-msgstr ""
+msgstr "Tri par prix décroissant"
 
 #: includes/wc-template-functions.php:1407
 msgid "Sort by price: low to high"
-msgstr ""
+msgstr "Tri par prix croissant"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:752
 msgid "Sort by tax class."

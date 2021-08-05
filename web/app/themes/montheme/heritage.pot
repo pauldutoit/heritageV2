@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Heritage\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 08:14+0000\n"
+"POT-Creation-Date: 2021-08-02 15:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -644,4 +644,7 @@ msgstr ""
 
 #: settings/theme_settings.php:342
 msgid "YouTube URL"
+msgstr ""
+
+msgid "Your Rating"
 msgstr ""
