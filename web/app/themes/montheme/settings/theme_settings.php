@@ -386,27 +386,27 @@ function HERITAGE_add_settings_fields()
     $footer_settings = array(
         array(
             'id'		=> 'lc_copyright_text',
-            'label'		=> esc_html__('Copyright text', 'artemis-swp'),
+            'label'		=> esc_html__('Copyright text', 'heritage'),
             'callback'	=> 'HERITAGE_copyright_text_cbk'
         ),
         array(
             'id'		=> 'lc_copyright_url',
-            'label'		=> esc_html__('Copyrigth URL', 'artemis-swp'),
+            'label'		=> esc_html__('Copyrigth URL', 'heritage'),
             'callback'	=> 'HERITAGE_copyright_url_cbk'
         ),
         array(
             'id'		=> 'lc_copyright_text_bg_color',
-            'label'		=> esc_html__('Copyrigth Text Background Color', 'artemis-swp'),
+            'label'		=> esc_html__('Copyrigth Text Background Color', 'heritage'),
             'callback'	=> 'HERITAGE_copyright_bgc_cbk'
         ),
         array(
             'id'		=> 'lc_footer_widgets_background_color',
-            'label'		=> esc_html__('Footer widgets color overlay', 'artemis-swp'),
+            'label'		=> esc_html__('Footer widgets color overlay', 'heritage'),
             'callback'	=> 'HERITAGE_footer_widget_bgcolor_cbk'
         ),
         array(
             'id'		=> 'lc_copyright_put_social',
-            'label'		=> esc_html__('Place social icons on footer', 'artemis-swp'),
+            'label'		=> esc_html__('Place social icons on footer', 'heritage'),
             'callback'	=> 'HERITAGE_copyright_put_social_cbk'
         )
     );

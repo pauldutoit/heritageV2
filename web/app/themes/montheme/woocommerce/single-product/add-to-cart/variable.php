@@ -29,7 +29,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
           data-product_variations="<?php echo htmlspecialchars( wp_json_encode( $available_variations ) ) ?>">
         <?php do_action( 'woocommerce_before_variations_form' ); ?>
         <?php if ( empty( $available_variations ) && false !== $available_variations ) : ?>
-            <p class="stock out-of-stock"><?php esc_html_e( 'This product is currently out of stock and unavailable.', 'artemis-swp' ); ?></p>
+            <p class="stock out-of-stock"><?php esc_html_e( 'This product is currently out of stock and unavailable.', 'heritage' ); ?></p>
         <?php else : ?>
             <table class="variations" cellspacing="0">
                 <tbody>
@@ -46,11 +46,11 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
                                     'attribute' => $attribute_name,
                                     'product'   => $product,
                                     'selected'  => $selected,
-                                    'show_option_none' => sprintf(esc_html__( 'Choose %s', 'artemis-swp' ), ucwords($attribute_name))
+                                    'show_option_none' => sprintf(esc_html__( 'Choose %s', 'heritage' ), ucwords($attribute_name))
                                 )
                             );
                             /*
-                            echo end( $attribute_keys ) === $attribute_name ? apply_filters( 'woocommerce_reset_variations_link', '<a class="reset_variations" href="#">' . esc_html__( 'Clear', 'artemis-swp' ) . '</a>' ) : '';
+                            echo end( $attribute_keys ) === $attribute_name ? apply_filters( 'woocommerce_reset_variations_link', '<a class="reset_variations" href="#">' . esc_html__( 'Clear', 'heritage' ) . '</a>' ) : '';
                             */
                             ?>
                         </td>
@@ -59,7 +59,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
                         <tr>
                             <td>
                                 <?php
-                                echo apply_filters( 'woocommerce_reset_variations_link', '<a class="reset_variations" href="#">' . esc_html__( 'Clear selection', 'artemis-swp' ) . '</a>' );
+                                echo apply_filters( 'woocommerce_reset_variations_link', '<a class="reset_variations" href="#">' . esc_html__( 'Clear selection', 'heritage' ) . '</a>' );
                                 ?>
                             </td>
                         </tr>

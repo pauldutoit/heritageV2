@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2021-07-22T16:58:57+00:00\n"
-"PO-Revision-Date: 2021-08-01 14:35+0000\n"
+"PO-Revision-Date: 2021-08-05 09:56+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: fr_FR\n"
@@ -46,6 +46,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Onboarding.php:614
 msgid " — %s"
 msgstr ""
+"\n"
 
 #. translators: %s: coupon code
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/CartController.php:829
@@ -676,7 +677,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout.js:1
 #: packages/woocommerce-blocks/build/single-product-frontend.js:6
 msgid "%s (optional)"
-msgstr ""
+msgstr "%s (optionnel)"
 
 #. translators: %s: human-readable time difference
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:256
@@ -5109,7 +5110,7 @@ msgstr ""
 
 #: includes/class-wc-privacy-exporters.php:256
 msgid "Billing Address"
-msgstr ""
+msgstr "Adresse de facturation"
 
 #: templates/emails/email-addresses.php:29
 #: templates/emails/plain/email-addresses.php:20
@@ -7582,12 +7583,12 @@ msgstr ""
 
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Company (optional)"
-msgstr ""
+msgstr "Entreprise (optionnel)"
 
 #: includes/class-wc-countries.php:699
 #: includes/customizer/class-wc-shop-customizer.php:724
 msgid "Company name"
-msgstr ""
+msgstr "Entreprise"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:738
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:801
@@ -8317,7 +8318,7 @@ msgstr ""
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/OrderController.php:331
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Country/Region"
-msgstr ""
+msgstr "Pays"
 
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Country/Region (optional)"
@@ -11655,7 +11656,7 @@ msgstr ""
 #: includes/class-wc-privacy-exporters.php:195
 #: includes/class-wc-privacy-exporters.php:259
 msgid "Email Address"
-msgstr ""
+msgstr "Adresse email"
 
 #: includes/admin/class-wc-admin-profile.php:90
 #: includes/admin/class-wc-admin-setup-wizard.php:2238
@@ -11668,11 +11669,11 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
 #: packages/woocommerce-blocks/build/checkout.js:1
 msgid "Email address"
-msgstr ""
+msgstr "Adresse email"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:408
 msgid "Email address is invalid."
-msgstr ""
+msgstr "Adresse email incorrecte"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1450
 msgid "Email address to receive payments"
@@ -13383,7 +13384,7 @@ msgstr ""
 #: templates/myaccount/form-edit-account.php:27
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "First name (optional)"
@@ -18425,7 +18426,7 @@ msgstr ""
 #: templates/myaccount/form-edit-account.php:31
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Last name"
-msgstr ""
+msgstr "Nom de famille"
 
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Last name (optional)"
@@ -26111,7 +26112,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
 #: packages/woocommerce-blocks/build/checkout.js:1
 msgid "Phone"
-msgstr ""
+msgstr "Téléphone"
 
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/form/phone-number/index.js:26
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
@@ -26777,7 +26778,7 @@ msgstr ""
 #: includes/class-wc-countries.php:748
 #: templates/cart/shipping-calculator.php:82
 msgid "Postcode / ZIP"
-msgstr ""
+msgstr "Code postal"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:643
 msgid "Postcode / ZIP."
@@ -30546,7 +30547,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-address.php:46
 msgid "Save address"
-msgstr ""
+msgstr "Sauvegarder l'adresse"
 
 #: includes/admin/meta-boxes/views/html-product-data-attributes.php:53
 msgid "Save attributes"
@@ -39088,7 +39089,7 @@ msgstr ""
 
 #: includes/class-wc-countries.php:732
 msgid "Town / City"
-msgstr ""
+msgstr "Ville"
 
 #: includes/class-wc-countries.php:1119
 msgid "Town / City / Post Office"
@@ -43503,7 +43504,7 @@ msgstr ""
 
 #: templates/single-product-reviews.php:124
 msgid "Your rating"
-msgstr ""
+msgstr "Votre note"
 
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:73
 msgid "Your Report Download"
