@@ -108,11 +108,10 @@ function HERITAGE_get_products_per_row(){
 }
 
 function HERITAGE_get_default_color_scheme() {
-    /* pas encore implementé */
-    //$color_scheme = HERITAGE_get_theme_option('heritage_theme_general_options', 'lc_default_color_scheme');
-//    if (!empty($color_scheme)) {
-//        return $color_scheme;
-//    }
+    $color_scheme = HERITAGE_get_theme_option('heritage_theme_general_options', 'lc_default_color_scheme');
+    if (!empty($color_scheme)) {
+        return $color_scheme;
+    }
     return  'black_on_white';
 }
 

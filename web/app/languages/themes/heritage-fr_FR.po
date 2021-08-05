@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: heritage\n"
 "POT-Creation-Date: 2021-08-05 12:10+0200\n"
-"PO-Revision-Date: 2021-08-05 12:10+0200\n"
+"PO-Revision-Date: 2021-08-05 17:09+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -1129,7 +1129,7 @@ msgstr ""
 #: woocommerce/single-product/add-to-cart/variable.php:49
 #, php-format
 msgid "Choose %s"
-msgstr ""
+msgstr " %s"
 
 #: woocommerce/single-product/add-to-cart/variable.php:62
 msgid "Clear selection"

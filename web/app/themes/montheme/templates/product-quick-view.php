@@ -6,7 +6,8 @@ global $post;
 do_action('heritage_quick_view_before');
 
 $props = wc_get_product_attachment_props(get_post_thumbnail_id(), $post);
-$image = $product->get_image(apply_filter('single_product_large_thumbnail_size', 'shop_single'));
+$image = $product->get_image();
+
 
 ?>
     <div <?php post_class(); ?>>
