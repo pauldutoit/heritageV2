@@ -63,6 +63,9 @@ if('grid' == HERITAGE_get_products_view_mode()){
     add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_rating', 15 );
     add_action( 'woocommerce_before_shop_loop_item_title', 'HERITAGE_quickview_button', 20 );
 
+    remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10 );
+    add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_add_to_cart', 30 );
+
     function HERITAGE_close_product_list_mask() {
         echo "</div>";
     }
@@ -404,6 +407,9 @@ function HERITAGE_quick_view() {
 add_action( 'wp_ajax_heritage_quick_view', 'HERITAGE_quick_view' );
 add_action( 'wp_ajax_nopriv_heritage_quick_view', 'HERITAGE_quick_view' );
 
+
+add_action('woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_link_open', 9 );
+add_action('woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_link_close', 11 );
 
 remove_action('woocommerce_review_before_comment_meta', 'woocommerce_review_display_rating', 10);
 add_action('woocommerce_review_before_comment_text', 'woocommerce_review_display_rating', 10);
