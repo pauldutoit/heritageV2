@@ -11,11 +11,17 @@
             }
             ?>
 
+
+        <?php
+            $locale = __('Cart', 'heritage') . __('My account', 'heritage');
+
+            ?>
             <div class="single_post_title <?php echo esc_attr(/*HERITAGE_get_titles_alignment_class())*/"center").esc_attr($has_thumbnail_class); ?>">
                 <?php
                 if (is_page_template("default")) {
                     ?>
-                    <h1> <?php the_title(); ?> </h1> <?php
+
+                    <h1> <?php trim(the_title()) ?> </h1> <?php
                 }
                 ?>
 

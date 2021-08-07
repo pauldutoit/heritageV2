@@ -139,6 +139,7 @@ if (function_exists("is_product")) {
         $heading_width = 'lc_swp_full'; /*heritage_SWP_get_product_width_class();*/
     }
 }
+
 if (is_page_template("template-visual-composer-header.php")) {
     $heading_width = "lc_swp_full";
 }
@@ -171,12 +172,16 @@ if (is_page_template("template-visual-composer-header.php")) {
     );
     ?>
 
+    <?php
+    $locale = __('Shop', 'heritage') . __('Homepage', 'heritage');
+    ?>
+
     <div class="heading_content_container clearfix <?php echo esc_attr($heading_width)." ".esc_attr($has_bg_image_class); ?>">
         <?php if ($show_title_on_header) {?>
             <div class="heading_titles_container">
                 <div class="heading_area_title <?php echo esc_attr($title_align_class); ?> <?php echo trim($user_title) ? esc_attr("user_page_title") : ""; ?>">
                     <h1>
-                        <?php echo wp_kses($title, $allow_title_tags); ?>
+                        <?php _e($title, 'heritage') ?>
                     </h1>
                 </div>
             </div>

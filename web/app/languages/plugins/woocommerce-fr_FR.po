@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2021-07-22T16:58:57+00:00\n"
-"PO-Revision-Date: 2021-08-05 12:22+0000\n"
+"PO-Revision-Date: 2021-08-07 14:31+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: fr_FR\n"
@@ -298,8 +298,8 @@ msgstr ""
 #: templates/myaccount/my-orders.php:75 templates/myaccount/orders.php:61
 msgid "%1$s for %2$s item"
 msgid_plural "%1$s for %2$s items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s pour %2$s produit"
+msgstr[1] "%1$s pour %2$s produits"
 
 #. translators: %1$s: product name. %2$s product permalink
 #: includes/class-wc-cart-session.php:149
@@ -2200,7 +2200,7 @@ msgstr ""
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
 #: templates/myaccount/my-address.php:63
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
 #: packages/woocommerce-admin/dist/chunks/customizable-dashboard.js:1
 msgid "Add %s section"
@@ -2393,7 +2393,7 @@ msgstr ""
 #: templates/myaccount/form-add-payment-method.php:54
 #: templates/myaccount/payment-methods.php:77
 msgid "Add payment method"
-msgstr ""
+msgstr "Ajouter une méthode de paiement"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-images.php:81
 msgid "Add product gallery images"
@@ -2451,7 +2451,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/all-products.js:1
 #: packages/woocommerce-blocks/build/wc-blocks-google-analytics.js:1
 msgid "Add to Cart"
-msgstr ""
+msgstr "Ajouter au panier"
 
 #: includes/abstracts/abstract-wc-product.php:1855
 #: includes/class-wc-product-simple.php:60
@@ -2466,7 +2466,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/atomic-block-components/button.js:1
 #: packages/woocommerce-blocks/build/featured-product.js:1
 msgid "Add to cart"
-msgstr ""
+msgstr "Ajouter au panier"
 
 #: includes/admin/settings/class-wc-settings-products.php:71
 msgid "Add to cart behaviour"
@@ -6484,8 +6484,8 @@ msgstr ""
 #: templates/single-product/meta.php:34
 msgid "Category:"
 msgid_plural "Categories:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Catégorie"
+msgstr[1] "Catégories"
 
 #: i18n/states.php:604
 msgid "Cavan"
@@ -7739,7 +7739,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:59
 msgid "Confirm new password"
-msgstr ""
+msgstr "Confirmer le nouveau mot de passe"
 
 #: packages/woocommerce-admin/src/Notes/ConfirmTaxSettings.php:35
 msgid "Confirm tax settings"
@@ -8273,7 +8273,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.js:1
 #: packages/woocommerce-admin/dist/chunks/task-list.js:1
 msgid "Country / Region"
-msgstr ""
+msgstr "Pays"
 
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:248
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:175
@@ -9034,7 +9034,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:51
 msgid "Current password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Mot de passe actuel (laisser vide pour laisser inchangé)"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1816
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1757
@@ -9991,7 +9991,7 @@ msgstr ""
 #: src/Internal/ProductAttributesLookup/DataRegenerator.php:329
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #. translators: %s: webhook name
 #: includes/admin/class-wc-admin-webhooks-table-list.php:84
@@ -10572,7 +10572,7 @@ msgstr ""
 #: includes/class-wc-form-handler.php:270
 #: templates/myaccount/form-edit-account.php:37
 msgid "Display name"
-msgstr ""
+msgstr "Pseudo"
 
 #. translators: 1: first name 2: last name
 #: includes/class-wc-customer.php:799
@@ -11435,7 +11435,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/reviews-by-product.js:1
 #: packages/woocommerce-blocks/build/single-product.js:1
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #. translators: %s: attribute name
 #: includes/class-wc-post-types.php:238
@@ -12681,7 +12681,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:303
 #: packages/woocommerce-admin/dist/chunks/analytics-report-coupons.js:1
 msgid "Expires"
-msgstr ""
+msgstr "Expiration"
 
 #: includes/admin/helper/views/html-main.php:77
 msgid "Expires on:"
@@ -21298,7 +21298,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:120
 #: includes/wc-account-functions.php:243
 msgid "Method"
-msgstr ""
+msgstr "Méthode"
 
 #. translators: %s: Class method name.
 #. translators: %s: Method name
@@ -22558,7 +22558,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:55
 msgid "New password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Nouveau mot de passe (laisser vide pour laisser inchangé)"
 
 #: includes/class-wc-form-handler.php:302
 msgid "New passwords do not match."
@@ -23080,7 +23080,7 @@ msgstr ""
 
 #: templates/cart/mini-cart.php:92
 msgid "No products in the cart."
-msgstr ""
+msgstr "Aucun produits dans le panier"
 
 #: templates/loop/no-products-found.php:21
 msgid "No products were found matching your selection."
@@ -24212,7 +24212,7 @@ msgstr ""
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-request.php:310
 #: includes/wc-account-functions.php:196 templates/myaccount/my-orders.php:14
 msgid "Order"
-msgstr ""
+msgstr "Commande"
 
 #: packages/woocommerce-admin/dist/chunks/analytics-report-categories.js:1
 #: packages/woocommerce-admin/dist/chunks/analytics-report-coupons.js:1
@@ -24221,7 +24221,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-taxes.js:1
 msgid "order"
 msgid_plural "orders"
-msgstr[0] ""
+msgstr[0] "commande"
 msgstr[1] ""
 
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:394
@@ -24230,7 +24230,7 @@ msgstr[1] ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.js:1
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
 msgid "Order #"
-msgstr ""
+msgstr "Commande #"
 
 #. translators: %1$s: order ID, %2$s: reason code.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:302
@@ -24624,7 +24624,7 @@ msgstr ""
 #: includes/class-wc-post-types.php:572 includes/wc-order-functions.php:96
 msgctxt "Order status"
 msgid "Processing"
-msgstr ""
+msgstr "En cours de traitement"
 
 #: includes/class-wc-post-types.php:608 includes/wc-order-functions.php:100
 msgctxt "Order status"
@@ -25411,7 +25411,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:48
 msgid "Password change"
-msgstr ""
+msgstr "Changement de mot de passe"
 
 #: templates/myaccount/lost-password-confirmation.php:20
 msgid "Password reset email has been sent."
@@ -25673,7 +25673,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
 #: packages/woocommerce-blocks/build/checkout.js:1
 msgid "Payment methods"
-msgstr ""
+msgstr "Méthodes de paiement"
 
 #. translators: 1: Amount, 2: Authorization ID, 3: Transaction ID
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:428
@@ -27146,7 +27146,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:295
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:573
 msgid "Processing"
-msgstr ""
+msgstr "En cours de traitement"
 
 #. translators: %s: number of orders
 #: includes/class-wc-post-types.php:578
@@ -28732,7 +28732,7 @@ msgstr ""
 
 #: includes/widgets/class-wc-widget-recent-reviews.php:27
 msgid "Recent reviews"
-msgstr ""
+msgstr "Notes recentes"
 
 #: includes/widgets/class-wc-widget-recently-viewed.php:27
 msgid "Recently Viewed Products"
@@ -29024,7 +29024,7 @@ msgstr ""
 
 #: templates/single-product/related.php:27
 msgid "Related products"
-msgstr ""
+msgstr "Produits associés"
 
 #: includes/wc-template-functions.php:1418
 msgid "Relevance"
@@ -29817,12 +29817,12 @@ msgstr ""
 #: templates/single-product-reviews.php:37
 #: packages/woocommerce-admin/dist/chunks/homescreen.js:1
 msgid "Reviews"
-msgstr ""
+msgstr "Notes"
 
 #. translators: %s: reviews count
 #: includes/wc-template-functions.php:1806
 msgid "Reviews (%d)"
-msgstr ""
+msgstr "Notes (%d)"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2047
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1991
@@ -30560,7 +30560,7 @@ msgstr ""
 #: includes/admin/views/html-admin-settings.php:45
 #: templates/myaccount/form-edit-account.php:69
 msgid "Save changes"
-msgstr ""
+msgstr "Sauvegarder les changements"
 
 #: includes/admin/class-wc-admin-assets.php:268
 msgid "Save changes before changing page?"
@@ -31085,7 +31085,7 @@ msgstr ""
 #: includes/wc-template-functions.php:2758
 #: templates/cart/shipping-calculator.php:31
 msgid "Select a country / region&hellip;"
-msgstr ""
+msgstr "Sélectionner un pays&hellip;"
 
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.js:1
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
@@ -31871,7 +31871,7 @@ msgstr ""
 
 #: includes/class-wc-privacy-exporters.php:257
 msgid "Shipping Address"
-msgstr ""
+msgstr "Adresse de livraison"
 
 #: templates/emails/email-addresses.php:43
 #: templates/emails/plain/email-addresses.php:35
@@ -31882,11 +31882,11 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
 #: packages/woocommerce-blocks/build/checkout.js:1
 msgid "Shipping address"
-msgstr ""
+msgstr "Adresse de livraison"
 
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/OrderController.php:273
 msgid "shipping address"
-msgstr ""
+msgstr "adresse de livraison"
 
 #: includes/class-wc-privacy-erasers.php:60
 #: includes/class-wc-privacy-exporters.php:199
@@ -34212,7 +34212,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-stock.js:1
 #: packages/woocommerce-admin/dist/chunks/analytics-report-variations.js:1
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: packages/woocommerce-admin/src/API/Notes.php:566
 msgid "Status of note."
@@ -34462,7 +34462,7 @@ msgstr ""
 
 #: includes/class-wc-countries.php:714
 msgid "Street address"
-msgstr ""
+msgstr "Adresse postale"
 
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/TermSchema.php:45
 msgid "String based identifier for the term."
@@ -36472,7 +36472,7 @@ msgstr ""
 
 #: templates/myaccount/my-address.php:46
 msgid "The following addresses will be used on the checkout page by default."
-msgstr ""
+msgstr "Les adresses suivantes seront utilisées par défaut dans le checkout"
 
 #: packages/woocommerce-blocks/assets/js/editor-components/error-placeholder/error-message.js:19
 #: packages/woocommerce-blocks/build/all-products.js:1
@@ -37229,11 +37229,11 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-dashboard.php:383
 msgid "There are no product reviews yet."
-msgstr ""
+msgstr "Il n'y a pas encore de notes pour ce produit"
 
 #: templates/single-product-reviews.php:64
 msgid "There are no reviews yet."
-msgstr ""
+msgstr "Il n'y a pas encore de notes."
 
 #: templates/cart/cart-shipping.php:67
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
@@ -38328,6 +38328,7 @@ msgid ""
 "This will be how your name will be displayed in the account section and in "
 "reviews"
 msgstr ""
+"Ce nom sera affiché dans la section \"Mon compte\" et dans les commentaires"
 
 #: includes/admin/views/html-quick-edit-product.php:185
 msgid "This will change the stock status of all variations."
@@ -40828,7 +40829,7 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/editor-components/view-switcher/index.js:18
 #: packages/woocommerce-blocks/build/cart.js:1
 msgid "View"
-msgstr ""
+msgstr "Voir"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2296
 msgid "View &amp; Customize"
@@ -43110,7 +43111,7 @@ msgstr ""
 
 #: templates/myaccount/my-address.php:67
 msgid "You have not set up this type of address yet."
-msgstr ""
+msgstr "Vous n'avez pas encore renseigné cette adresse"
 
 #: includes/log-handlers/class-wc-log-handler-email.php:177
 msgid "You have received the following WooCommerce log message:"

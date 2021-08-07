@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: heritage\n"
-"POT-Creation-Date: 2021-08-05 12:10+0200\n"
-"PO-Revision-Date: 2021-08-05 17:09+0200\n"
+"POT-Creation-Date: 2021-08-07 15:51+0200\n"
+"PO-Revision-Date: 2021-08-07 16:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -511,11 +511,21 @@ msgid ""
 "something else."
 msgstr ""
 
-#: index.php:38 page.php:30 single.php:16
+#: index.php:38 page.php:35 single.php:16
 msgid "Sorry, no posts matched your criteria."
 msgstr ""
 
-#: page.php:14
+#: page.php:16
+msgid "Cart"
+msgstr "Panier"
+
+#: page.php:16
+#, fuzzy
+#| msgid "My Account"
+msgid "My account"
+msgstr "Mon compte"
+
+#: page.php:19
 msgid "center"
 msgstr ""
 
@@ -888,7 +898,15 @@ msgstr "Auteur: "
 msgid "Webzine"
 msgstr "Articles"
 
-#: templates/heading_area.php:177
+#: templates/heading_area.php:176
+msgid "Shop"
+msgstr "Boutique"
+
+#: templates/heading_area.php:176
+msgid "Homepage"
+msgstr ""
+
+#: templates/heading_area.php:182
 msgid "user_page_title"
 msgstr ""
 
@@ -954,19 +972,17 @@ msgstr ""
 
 #: templates/menu/centered_menu.php:84
 #: templates/menu/classic_double_menu.php:39 templates/menu/classic_menu.php:66
-#: templates/menu/creative_menu.php:60 templates/menu/mobile_menu.php:39
+#: templates/menu/creative_menu.php:60
 msgid "View your shopping cart"
 msgstr "Voir mon panier"
 
 #: templates/menu/classic_double_menu.php:113
 #: templates/menu/classic_menu.php:101 templates/menu/creative_menu.php:83
-#: templates/menu/mobile_menu.php:57
 msgid "My Account"
 msgstr "Mon compte"
 
 #: templates/menu/classic_double_menu.php:116
 #: templates/menu/classic_menu.php:104 templates/menu/creative_menu.php:86
-#: templates/menu/mobile_menu.php:60
 msgid "at_to_login_popup"
 msgstr ""
 
@@ -981,7 +997,7 @@ msgstr "Inscription"
 msgid "full"
 msgstr ""
 
-#: templates/menu/creative_menu.php:87 templates/menu/mobile_menu.php:61
+#: templates/menu/creative_menu.php:87
 msgid "Login &#47; Signup"
 msgstr "Connexion &#47; Inscription"
 
@@ -1041,7 +1057,7 @@ msgstr ""
 
 #: templates/utils/search_form_global.php:4
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
 
 #: templates/utils/search_form_global.php:12
 msgid "Top keywords:"
@@ -1104,7 +1120,7 @@ msgstr ""
 
 #: woocommerce/cart/mini-cart.php:65
 msgid "No products in the cart."
-msgstr ""
+msgstr "Aucun produit dans le panier."
 
 #: woocommerce/cart/mini-cart.php:72 woocommerce/checkout/review-order.php:85
 msgid "Subtotal"
@@ -1138,3 +1154,9 @@ msgstr ""
 #: woocommerce/single-product/product-thumbnails.php:39
 msgid "columns-"
 msgstr ""
+
+#~ msgid "SHOP"
+#~ msgstr "BOUTIQUE"
+
+#~ msgid "HOMEPAGE"
+#~ msgstr "HOMEPAGE"
