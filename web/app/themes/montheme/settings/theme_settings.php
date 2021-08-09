@@ -41,11 +41,11 @@ function HERITAGE_option_page_settings()
                 $contact_options_class = $active_tab == 'contact_options' ? 'nav-tab-active' : '';
                 $shop_options_class = $active_tab == 'shop_options' ? 'nav-tab-active' : '';
             ?>
-            <a href="?page=heritage_menu_page&tab=general_options" class="nav-tab <?php echo esc_attr($general_options_class); ?>">General Options</a>
-            <a href="?page=heritage_menu_page&tab=social_options" class="nav-tab <?php echo esc_attr($social_options_class); ?>">Social Options</a>
-            <a href="?page=heritage_menu_page&tab=footer_options" class="nav-tab <?php echo esc_attr($footer_options_class); ?>">Footer Options</a>
-            <a href="?page=heritage_menu_page&tab=contact_options" class="nav-tab <?php echo esc_attr($contact_options_class); ?>">Contact Data</a>
-            <a href="?page=heritage_menu_page&tab=shop_options" class="nav-tab <?php echo esc_attr($shop_options_class); ?>">Shop</a>
+            <a href="?page=heritage_menu_page&tab=general_options" class="nav-tab <?php echo esc_attr($general_options_class); ?>"><?php esc_html_e('General Options', 'heritage'); ?></a>
+            <a href="?page=heritage_menu_page&tab=social_options" class="nav-tab <?php echo esc_attr($social_options_class); ?>"><?php esc_html_e('Social Options', 'heritage'); ?></a>
+            <a href="?page=heritage_menu_page&tab=footer_options" class="nav-tab <?php echo esc_attr($footer_options_class); ?>"><?php esc_html_e('Footer Options', 'heritage'); ?></a>
+            <a href="?page=heritage_menu_page&tab=contact_options" class="nav-tab <?php echo esc_attr($contact_options_class); ?>"><?php esc_html_e('Contact Data', 'heritage'); ?></a>
+            <a href="?page=heritage_menu_page&tab=shop_options" class="nav-tab <?php echo esc_attr($shop_options_class); ?>"><?php esc_html_e('Shop', 'heritage'); ?></a>
         </h2>
 
         <form method="post" action="options.php">
@@ -483,20 +483,6 @@ function HERITAGE_add_settings_fields()
 
 function HERITAGE_favicon_select_cbk() {
     $favicon_url = HERITAGE_get_theme_option('heritage_theme_general_options', 'lc_custom_favicon');
-
-    if (function_exists('wp_site_icon')) {
-        ?>
-        <p class="description notice notice-success">
-            <?php echo esc_html__('Hi, your WordPress version is higher than 4.3 and allows you to use the built in WordPress functionality related to custom favicon.', 'heritage'); ?>
-            <br>
-            <?php echo esc_html__('Please go to Appearance - Customize - Site Identity and choose the favicon from that place.', 'heritage'); ?>
-            <br>
-            <?php echo esc_html__('For your WordPress version, the Upload custom favicon option will be ignored, the one from customizer will be used.', 'heritage'); ?>
-            <br>
-            <?php echo esc_html__('This option exists only for backward compatibility reasons.', 'heritage'); ?>
-        </p>
-        <?php
-    }
     ?>
 
     <input id="lc_swp_favicon_upload_value" type="text" name="heritage_theme_general_options[lc_custom_favicon]" size="150" value="<?php echo esc_url($favicon_url); ?>"/>
@@ -564,13 +550,6 @@ function HERITAGE_default_colorscheme_cbk() {
     <select id="lc_default_color_scheme" name="heritage_theme_general_options[lc_default_color_scheme]">
         <?php HERITAGE_render_select_options($color_schemes, $color_scheme); ?>
     </select>
-    <p class="description">
-        <?php echo esc_html__('Default color scheme used for the website content.', 'heritage').'<br>'; ?>
-        <?php echo esc_html__('Black On White - black text on white background.', 'heritage'); ?>
-        <?php echo esc_html__('White On Black - white text on black background.', 'heritage').'<br>'; ?>
-        <?php echo esc_html__('If you change this value, you might need to change the background color or image for your website according to the color scheme.', 'heritage'); ?>
-        <?php echo esc_html__('You can change the background color for your website from Appearance - Customize - Colors.', 'heritage'); ?>
-    </p>
     <?php
 }
 

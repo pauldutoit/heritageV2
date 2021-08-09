@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: heritage\n"
-"POT-Creation-Date: 2021-08-07 15:51+0200\n"
-"PO-Revision-Date: 2021-08-07 16:25+0200\n"
+"POT-Creation-Date: 2021-08-09 13:48+0200\n"
+"PO-Revision-Date: 2021-08-09 14:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -461,47 +461,47 @@ msgstr ""
 msgid "Main menu"
 msgstr ""
 
-#: core/woocommerce_support.php:85
+#: core/woocommerce_support.php:88
 msgid "Show Grid:"
 msgstr "Affichage en grille :"
 
-#: core/woocommerce_support.php:86 core/woocommerce_support.php:87
-#: core/woocommerce_support.php:88
+#: core/woocommerce_support.php:89 core/woocommerce_support.php:90
+#: core/woocommerce_support.php:91
 msgid "active"
 msgstr ""
 
-#: core/woocommerce_support.php:198
+#: core/woocommerce_support.php:201
 msgid "Clear Shopping Cart"
 msgstr "Supprimer le panier"
 
-#: core/woocommerce_support.php:225 woocommerce/cart/mini-cart.php:54
+#: core/woocommerce_support.php:228 woocommerce/cart/mini-cart.php:54
 msgid "Qty"
 msgstr ""
 
-#: core/woocommerce_support.php:272 core/woocommerce_support.php:274
+#: core/woocommerce_support.php:275 core/woocommerce_support.php:277
 #: woocommerce/single-product/product-image.php:77
 #: woocommerce/single-product/product-image.php:79
 msgid "Awaiting product image"
 msgstr "En attente d'une image produit"
 
-#: core/woocommerce_support.php:309
+#: core/woocommerce_support.php:312
 msgid ""
 "Pour ceux qui désirent un tapis unique et personnalisé sur le bout des ongles"
 msgstr ""
 
-#: core/woocommerce_support.php:357
+#: core/woocommerce_support.php:360
 msgid "Product not available"
 msgstr "Produit indisponible"
 
-#: core/woocommerce_support.php:396
+#: core/woocommerce_support.php:399
 msgid "Product was not found"
 msgstr ""
 
-#: core/woocommerce_support.php:431
+#: core/woocommerce_support.php:437
 msgid "Details"
 msgstr ""
 
-#: core/woocommerce_support.php:461
+#: core/woocommerce_support.php:467
 msgid "Size"
 msgstr ""
 
@@ -511,7 +511,7 @@ msgid ""
 "something else."
 msgstr ""
 
-#: index.php:38 page.php:35 single.php:16
+#: index.php:38 page.php:36 single.php:16
 msgid "Sorry, no posts matched your criteria."
 msgstr ""
 
@@ -529,17 +529,25 @@ msgstr "Mon compte"
 msgid "center"
 msgstr ""
 
-#: settings/theme_settings.php:88
+#: settings/theme_settings.php:44 settings/theme_settings.php:88
 msgid "General Options"
 msgstr "Options générales"
 
-#: settings/theme_settings.php:94
+#: settings/theme_settings.php:45 settings/theme_settings.php:94
 msgid "Social Options"
 msgstr "Options sociales"
 
-#: settings/theme_settings.php:101
+#: settings/theme_settings.php:46 settings/theme_settings.php:101
 msgid "Footer Options"
 msgstr "Options du footer"
+
+#: settings/theme_settings.php:47
+msgid "Contact Data"
+msgstr "Options de contact"
+
+#: settings/theme_settings.php:48 templates/heading_area.php:176
+msgid "Shop"
+msgstr "Boutique"
 
 #: settings/theme_settings.php:108
 msgid "Contact Options"
@@ -561,7 +569,7 @@ msgstr ""
 msgid ""
 "Setup footer text for the copyright area, footer text URL and analytics "
 "code. Also setup the footer widget area."
-msgstr ""
+msgstr "Met en place les informations pour la partie footer."
 
 #: settings/theme_settings.php:187
 msgid "Please insert your contact information."
@@ -569,11 +577,11 @@ msgstr ""
 
 #: settings/theme_settings.php:195
 msgid "Change WooCommerce shop related settings."
-msgstr ""
+msgstr "Change les paramètres de Woocommerce concernant la boutique."
 
 #: settings/theme_settings.php:255
 msgid "Upload Logo"
-msgstr "Uploader un Logo"
+msgstr "Ajouter un Logo"
 
 #: settings/theme_settings.php:256
 msgid "Remove Logo"
@@ -581,23 +589,23 @@ msgstr "Supprimer un Logo"
 
 #: settings/theme_settings.php:258
 msgid "Upload a custom logo image."
-msgstr ""
+msgstr "Uploader une image de logo personnalisée."
 
 #: settings/theme_settings.php:273
 msgid "Upload logo image"
-msgstr ""
+msgstr "Uploader un logo"
 
 #: settings/theme_settings.php:279
 msgid "Upload custom favicon"
-msgstr ""
+msgstr "Uploader un favicon"
 
 #: settings/theme_settings.php:284
 msgid "Upload custom background image"
-msgstr ""
+msgstr "Uploader une image de fond"
 
 #: settings/theme_settings.php:289
 msgid "Choose menu style"
-msgstr ""
+msgstr "Choisir le style du menu"
 
 #: settings/theme_settings.php:294
 msgid "Choose default color scheme"
@@ -609,11 +617,11 @@ msgstr "Activer le menu collant"
 
 #: settings/theme_settings.php:304
 msgid "Login Popup"
-msgstr ""
+msgstr "Popup de login"
 
 #: settings/theme_settings.php:309
 msgid "Enable back to top button"
-msgstr ""
+msgstr "Bouton ancre"
 
 #: settings/theme_settings.php:327
 msgid "Facebook URL"
@@ -637,31 +645,31 @@ msgstr ""
 
 #: settings/theme_settings.php:365 settings/theme_settings.php:427
 msgid "Contact address"
-msgstr ""
+msgstr "Adresse de contact"
 
 #: settings/theme_settings.php:370 settings/theme_settings.php:432
 msgid "Contact phones"
-msgstr ""
+msgstr "Téléphone"
 
 #: settings/theme_settings.php:375 settings/theme_settings.php:437
 msgid "Contact Fax Number"
-msgstr ""
+msgstr "Numero de Fax"
 
 #: settings/theme_settings.php:380 settings/theme_settings.php:442
 msgid "Contact E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: settings/theme_settings.php:389
 msgid "Copyright text"
-msgstr ""
+msgstr "Texte de copyright"
 
 #: settings/theme_settings.php:394
 msgid "Copyrigth URL"
-msgstr ""
+msgstr "URL de copyright"
 
 #: settings/theme_settings.php:399
 msgid "Copyrigth Text Background Color"
-msgstr ""
+msgstr "Couleur de fond du texte copyright"
 
 #: settings/theme_settings.php:404
 msgid "Footer widgets color overlay"
@@ -669,15 +677,15 @@ msgstr ""
 
 #: settings/theme_settings.php:409
 msgid "Place social icons on footer"
-msgstr ""
+msgstr "Icones réseaux sociaux dans le footer"
 
 #: settings/theme_settings.php:461
 msgid "Products View Mode"
-msgstr ""
+msgstr "Mode d'affichage des produits"
 
 #: settings/theme_settings.php:466
 msgid "Products Per Row"
-msgstr ""
+msgstr "Produits par ligne"
 
 #: settings/theme_settings.php:490
 msgid ""
@@ -703,27 +711,27 @@ msgstr ""
 
 #: settings/theme_settings.php:503
 msgid "Upload Favicon"
-msgstr ""
+msgstr "Ajouter un Favicon"
 
 #: settings/theme_settings.php:504
 msgid "Remove Favicon"
-msgstr ""
+msgstr "Supprimer un Favicon"
 
 #: settings/theme_settings.php:506
 msgid "Upload a custom favicon image."
-msgstr ""
+msgstr "Uploader une image de favicon personnalisée."
 
 #: settings/theme_settings.php:520
 msgid "Upload Image"
-msgstr ""
+msgstr "Ajouter une image"
 
 #: settings/theme_settings.php:521
 msgid "Remove Image"
-msgstr ""
+msgstr "Supprimer une Image"
 
 #: settings/theme_settings.php:523
 msgid "Upload a custom background image for inner pages."
-msgstr ""
+msgstr "Uploader une image de fond personnalisée."
 
 #: settings/theme_settings.php:539
 msgid "Creative Menu"
@@ -776,34 +784,36 @@ msgstr ""
 #: settings/theme_settings.php:585 settings/theme_settings.php:604
 #: settings/theme_settings.php:625 settings/theme_settings.php:707
 msgid "Enabled"
-msgstr ""
+msgstr "Activer"
 
 #: settings/theme_settings.php:586 settings/theme_settings.php:605
 #: settings/theme_settings.php:626 settings/theme_settings.php:708
 msgid "Disabled"
-msgstr ""
+msgstr "Désactiver"
 
 #: settings/theme_settings.php:593
 msgid ""
 "Enable or disable sticky menu bar. If enabled, menu will stay on top whyle "
 "the user moves the scrollbar."
 msgstr ""
+"Activer ou désactiver le menu collant. Si activé, le menu restera en haut de "
+"la page même en cas de scroll."
 
 #: settings/theme_settings.php:612
 msgid "Enable or disable login popup on frontend"
-msgstr ""
+msgstr "Activer ou désactiver la popup de login en front."
 
 #: settings/theme_settings.php:633
 msgid "Enable or disable back to top button."
-msgstr ""
+msgstr "Activer ou désactiver l'ancre."
 
 #: settings/theme_settings.php:716
 msgid "Place social profiles icons on copyright area."
-msgstr ""
+msgstr "Afficher les icônes de réseaux sociaux dans le footer."
 
 #: settings/theme_settings.php:717
 msgid "Please make sure that copyright text is filled in the above field."
-msgstr ""
+msgstr "Assurez vous que le texte de copyright est renseigné ci-dessus."
 
 #: settings/theme_settings.php:734
 msgid ""
@@ -813,7 +823,7 @@ msgstr ""
 
 #: settings/theme_settings.php:751
 msgid "Background color for the copyright text area."
-msgstr ""
+msgstr "Couleur de fond pour la section copyright."
 
 #: settings/theme_settings.php:786
 msgid "This is the email address shown on contact page."
@@ -835,23 +845,25 @@ msgstr "Liste"
 
 #: settings/theme_settings.php:816
 msgid "Select product list view mode"
-msgstr ""
+msgstr "Choisir le mode d'affichage"
 
 #: settings/theme_settings.php:830
 msgid "3 Columns"
-msgstr ""
+msgstr "3 Colonnes"
 
 #: settings/theme_settings.php:831
 msgid "4 Columns"
-msgstr ""
+msgstr "4 Colonnes"
 
 #: settings/theme_settings.php:832
 msgid "5 Columns"
-msgstr ""
+msgstr "5 Colonnes"
 
 #: settings/theme_settings.php:841
 msgid "Select number of products per row in products lists (grid mode)"
 msgstr ""
+"Choisir le nombre de produits par ligne dans le listing produit (en mode "
+"grille)"
 
 #: template-contact.php:20
 msgid "Visit <strong>Us</strong>"
@@ -897,10 +909,6 @@ msgstr "Auteur: "
 #: templates/heading_area.php:96
 msgid "Webzine"
 msgstr "Articles"
-
-#: templates/heading_area.php:176
-msgid "Shop"
-msgstr "Boutique"
 
 #: templates/heading_area.php:176
 msgid "Homepage"
@@ -1100,7 +1108,7 @@ msgstr ""
 
 #: woocommerce/cart/cart.php:152
 msgid "Update Cart"
-msgstr ""
+msgstr "Mettre à jour le panier"
 
 #: woocommerce/cart/cart.php:171
 msgid "Coupon discount"

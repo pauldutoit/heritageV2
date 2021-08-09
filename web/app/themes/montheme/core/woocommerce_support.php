@@ -474,3 +474,23 @@ if(!function_exists('HERITAGE_create_size_taxonomy')) {
     }
 }
 add_action('init', 'HERITAGE_create_size_taxonomy', 0);
+
+if(!function_exists('HERITAGE_create_color_taxonomy')) {
+
+    function HERITAGE_create_color_taxonomy()
+    {
+        $attributes_tax_slugs = array_keys( wc_get_attribute_taxonomy_labels() );
+
+        if (!in_array( 'color', $attributes_tax_slugs ) ) {
+            $args = wc_create_attribute(array(
+                'slug'    => 'color',
+                'name'   => __( 'Color', 'heritage' ),
+                'type'    => 'select',
+                'orderby' => 'menu_order',
+                'has_archives'  => false,
+            ));
+        }
+        delete_transient('wc_attribute_taxonomies');
+    }
+}
+add_action('init', 'HERITAGE_create_color_taxonomy', 0);
