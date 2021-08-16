@@ -16,6 +16,7 @@ body {
     overflow-x      : hidden;
     font-size       : 15px;
     line-height     : 26px;
+    font-family: Montserrat;
 }
 
 body {
@@ -7764,4 +7765,195 @@ a.look_link:hover::after {
     #footer_sidebar4 {
         padding : 0 0 20px 0;
     }       
+}
+
+
+/*Page home*/
+.landing-page {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.landing-page-photo {
+    background-image: url(https://i1.wp.com/afrikesh.com/wp-content/uploads/2020/04/12.jpg?fit=884%2C594&ssl=1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 75%;
+    width: 60%;
+    background-size: cover;
+    padding: 200px 40px;
+    transform: translateY(-50%);
+    border-radius: 30px 0 0 30px;
+}
+
+.landing-page-logo {
+    position: relative;
+    width: 30%;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heri-btn {
+    background: none;
+    padding: 23px 70px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    /* background: #0099cc; */
+    margin-top: 100px;
+    border: 1px #0099cc solid;
+    color: #0099cc;
+    transition: all 200ms ease-out;
+    display: inline-block;
+}
+
+.heri-btn:hover {
+    box-shadow: 5px 5px #99cc33, -5px -5px #0099cc !important;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.landing-title {
+    font-size: 40px;
+    color: white;
+}
+
+.home #lc_swp_content {
+    margin-top: 100vh;
+}
+
+.abass {
+    display: flex;
+    margin-bottom: 200px;
+}
+.abass-photo {
+    height: 500px;
+    flex: 1;
+    background-size: cover;
+    transition: all 300ms ease-out;
+    background-position: center;
+    position: relative;
+}
+
+.abass-photo div {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    /* background: red; */
+    font-size: 43px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    letter-spacing: 0px;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    line-height: 45px;
+}
+
+.abass-photo:hover div {
+    opacity: 1;
+
+}
+.abass-photo:hover {
+    flex: 2;
+    cursor: pointer;
+}
+
+.heri {
+    font-size: 60px;
+    margin-bottom: 70px;
+    font-family: Merriweather;
+    line-height: 80px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+/*section*/
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+.section-photo {
+    height: 400px;
+    flex: 1;
+    background-size: cover;
+    min-width:200px;
+}
+
+.text {
+    flex: 2;
+    padding: 20px;
+}
+
+/*css du serge le S Pour FORMNIATOR*/
+.sui-2-6-0 .sui-dialog .sui-dialog-content {
+    max-width: 1200px !important;
+}
+.forminator-radio-image {
+    /*box-shadow: none !important;*/
+}
+
+#radio-1 .forminator-field {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    align-items: baseline !important;
+}
+
+#radio-1 .forminator-label {
+    width: 100%;
+}
+
+.forminator-radio {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+span.forminator-radio-label {
+    font-size: 32px !important;
+    font-family: Montserrat !important;
+}
+.forminator-radio input:checked~.forminator-radio-image {
+    /*border: 6px #99cc33 solid !important;*/
+    /*border-radius: 30px !important;*/
+    box-shadow: 10px 10px #99cc33, -10px -10px #0099cc !important;
+}
+
+.forminator-radio input:checked~.forminator-radio-label {
+    color: #99cc33;
+    font-weight: bold;
+}
+
+.forminator-title {
+    font-family: Montserrat !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 13px !important;
+    opacity: 1 !important;
+    text-align: right !important;
+    color: #99cc33 !important;
+    font-size: 70px !important;
+}
+
+.forminator-radio-bullet {
+    opacity: 0;
+}
+
+.forminator-field {
+    /*display: flex;*/
+    /*justify-content: space-around;*/
 }
