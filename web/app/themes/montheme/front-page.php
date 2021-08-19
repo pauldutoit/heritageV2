@@ -91,7 +91,7 @@
             <div class="text">
                 <div style="font-weight: 800;font-size: 50px;color: #0099cc;margin-bottom: 10px;}">Igolzane</div>
                 <div style="font-weight: 400;color: #99cc33;">à partir de <strong style="color: #99CC33">689 €</strong></div>
-                <a href="#" class="heri-btn">Voir</a>
+                <a href="<?= wc_get_page_permalink('shop') ?>" class="heri-btn">Voir</a>
             </div>
         </div>
 
@@ -103,10 +103,10 @@
             <div class="text">
                 <div style="font-weight: 800;font-size: 50px;color: #0099cc;margin-bottom: 10px;}">Azilal</div>
                 <div style="font-weight: 400;color: #99cc33;">à partir de <strong style="color: #99CC33">789 €</strong></div>
-                <a href="#" class="heri-btn">Voir</a>
+                <a href="<?= wc_get_page_permalink('shop') ?>" class="heri-btn">Voir</a>
             </div>
         </div>
-        <a href="#" class="heri-btn">Voir tous</a>
+        <a href="<?= wc_get_page_permalink('shop') ?>" class="heri-btn">Voir tous</a>
 
 
         <div class="heri" style="margin-top: 50px;">
@@ -144,7 +144,7 @@
 
 
             <h1>Comment faire ? c'est très simple, commencez par remplir ce formulaire qui va permettre de cibler vos goûts. Ensuite un conseiller Heritage vous contactera dans les quelques jours suivants pour commencer la collaboration. Pas d'inquiétude ça ne nécessite aucune compétence, nos designer s'occupent de transformer vos rêves en réalité</h1>
-            <a href="#" class="heri-btn">Je veux créer mon tapis</a>
+            <a href="<?= get_permalink(get_page_by_title('Customization', 'OBJECT', 'page')) ?>" class="heri-btn">Je veux créer mon tapis</a>
 
         </div>
         <div class="heri" style="margin-top: 100px;">
@@ -159,7 +159,7 @@
 
             </div>
             <h3 class="text">Vous aurez tout le temps de fabriquer différents objets de décoration berbère en attendant l'arrivée de votre tapis. Vous retrouverez différents tutoriels dans la section
-                <a href="#">Webzine</a>. Cette activité saura occuper les petits comme les grands, les débutants comme les experimentés</h3>
+                <a href="<?= get_permalink(get_page_by_title('Articles', 'OBJECT', 'page')) ?>">Webzine</a>. Cette activité saura occuper les petits comme les grands, les débutants comme les experimentés</h3>
             <div class="section-photo"
                  style="background-image: url(https://i.pinimg.com/originals/cc/13/e2/cc13e230400c46ecb5c20b11dc72aaad.jpg)">
 
@@ -167,9 +167,6 @@
         </div>
     </div>
 
-
-
-    <!--    <a href="--><? //= get_post_type_archive_link('post') ?><!--">me les zizou xauvegarde et tu retourne sur le site bien sur </a>-->
 
 <?php endwhile; ?>
 
