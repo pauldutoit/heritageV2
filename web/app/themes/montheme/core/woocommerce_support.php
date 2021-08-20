@@ -309,7 +309,7 @@ function HERITAGE_carpet_customization()
     /**  @TODO traduction **/
     ?>
     <div>
-        <p><?= esc_attr("Pour ceux qui désirent un tapis unique et personnalisé sur le bout des ongles"); ?> <a href="<?= get_permalink(get_page_by_title('Customization')) ?>"> Personnaliser mon tapis </a></p>
+        <p><?= esc_attr("Pour ceux qui désirent un tapis unique et personnalisé sur le bout des ongles"); ?> <a href="<?= get_permalink(get_page_by_title('Personnalisation')) ?>">&nbsp;Personnaliser mon tapis </a></p>
     </div>
     <?php
 }

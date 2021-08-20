@@ -252,5 +252,52 @@ if(!function_exists('HERITAGE_create_articles_page')) {
 }
 add_action('init', 'HERITAGE_create_articles_page');
 
+if(!function_exists('HERITAGE_create_privacy_policy_page')) {
+
+    function HERITAGE_create_privacy_policy_page()
+    {
+        $check_page_exist = get_page_by_title('Politique de Confidentialité', 'OBJECT', 'page');
+        if (empty($check_page_exist)) {
+            $page_id = wp_insert_post(
+                array(
+                    'comment_status' => 'close',
+                    'ping_status' => 'close',
+                    'post_author' => 1,
+                    'post_title' => ucwords('Politique de confidentialité'),
+                    'post_name' => strtolower(str_replace(' ', '-', trim('Politique de Confidentialité'))),
+                    'post_status' => 'publish',
+                    'post_content' => '',
+                    'post_type' => 'page',
+                    'post_parent' => NULL
+                )
+            );
+        }
+    }
+}
+add_action('init', 'HERITAGE_create_privacy_policy_page');
+
+if(!function_exists('HERITAGE_create_rgpd_page')) {
+
+    function HERITAGE_create_rgpd_page()
+    {
+        $check_page_exist = get_page_by_title('Politique relative aux cookies', 'OBJECT', 'page');
+        if (empty($check_page_exist)) {
+            $page_id = wp_insert_post(
+                array(
+                    'comment_status' => 'close',
+                    'ping_status' => 'close',
+                    'post_author' => 1,
+                    'post_title' => ucwords('Politique relative aux cookies'),
+                    'post_name' => strtolower(str_replace(' ', '-', trim('Politique relative aux cookies'))),
+                    'post_status' => 'publish',
+                    'post_content' => '',
+                    'post_type' => 'page',
+                    'post_parent' => NULL
+                )
+            );
+        }
+    }
+}
+add_action('init', 'HERITAGE_create_rgpd_page');
 
 ?>
