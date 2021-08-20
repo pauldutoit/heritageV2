@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "adf43b4ab16a353d32735798b2947084",
+    "content-hash": "5668c0096345f8ed75884b0609c3d4f3",
     "packages": [
         {
             "name": "composer/installers",
@@ -975,6 +975,24 @@
             "time": "2021-01-20T15:23:13+00:00"
         },
         {
+            "name": "wpackagist-plugin/aco-variation-swatches-for-woocommerce",
+            "version": "1.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/aco-variation-swatches-for-woocommerce/",
+                "reference": "tags/1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/aco-variation-swatches-for-woocommerce.1.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/aco-variation-swatches-for-woocommerce/"
+        },
+        {
             "name": "wpackagist-plugin/forminator",
             "version": "1.14.12.1",
             "source": {
@@ -991,6 +1009,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/forminator/"
+        },
+        {
+            "name": "wpackagist-plugin/gs-pinterest-portfolio",
+            "version": "1.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gs-pinterest-portfolio/",
+                "reference": "tags/1.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gs-pinterest-portfolio.1.3.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gs-pinterest-portfolio/"
         },
         {
             "name": "wpackagist-plugin/loco-translate",
@@ -1063,6 +1099,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-image-zoom",
+            "version": "1.04.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-image-zoom/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-image-zoom.zip?timestamp=1626378239"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-image-zoom/"
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
