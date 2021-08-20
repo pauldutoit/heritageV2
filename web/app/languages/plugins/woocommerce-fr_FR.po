@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2021-07-22T16:58:57+00:00\n"
-"PO-Revision-Date: 2021-08-07 14:31+0000\n"
+"PO-Revision-Date: 2021-08-20 08:39+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: fr_FR\n"
@@ -363,8 +363,8 @@ msgstr ""
 #: templates/single-product-reviews.php:34
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s avis pour %2$s"
+msgstr[1] "%1$s avis pour %2$s"
 
 #. translators: 1: total items sold 2: category name
 #: includes/admin/reports/class-wc-report-sales-by-category.php:100
@@ -787,8 +787,8 @@ msgstr ""
 #: templates/single-product/rating.php:38
 msgid "%s customer review"
 msgid_plural "%s customer reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s avis"
+msgstr[1] "%s avis"
 
 #. Translators: %s order type name.
 #: includes/admin/class-wc-admin-meta-boxes.php:127
@@ -2245,7 +2245,7 @@ msgstr ""
 #. translators: %s is product title
 #: templates/single-product-reviews.php:75
 msgid "Add a review"
-msgstr ""
+msgstr "Ajouter un avis"
 
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:312
 msgid "Add additional piece of info about each category to the report."
@@ -3780,19 +3780,19 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout.js:1
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Apartment, suite, etc."
-msgstr ""
+msgstr "Appartement, résidence, etc."
 
 #: packages/woocommerce-blocks/build/wc-settings.js:1
 msgid "Apartment, suite, etc. (optional)"
-msgstr ""
+msgstr "Appartement, résidence, etc. (optionnel)"
 
 #: includes/class-wc-countries.php:673
 msgid "Apartment, suite, unit, etc."
-msgstr ""
+msgstr "Appartement, résidence, etc."
 
 #: includes/class-wc-countries.php:678
 msgid "Apartment, suite, unit, etc. (optional)"
-msgstr ""
+msgstr "Appartement, résidence, etc. (optionnel)"
 
 #: i18n/states.php:1210
 msgid "Apayao"
@@ -4894,7 +4894,7 @@ msgstr ""
 #. translators: %s is product title
 #: templates/single-product-reviews.php:75
 msgid "Be the first to review &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Soyez le premier à noter &ldquo;%s&rdquo;"
 
 #: packages/woocommerce-blocks/build/cart.js:1
 #: packages/woocommerce-blocks/build/checkout.js:1
@@ -5121,11 +5121,11 @@ msgstr "Adresse de facturation"
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
 #: packages/woocommerce-blocks/build/checkout.js:1
 msgid "Billing address"
-msgstr ""
+msgstr "Adresse de facturation"
 
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/OrderController.php:273
 msgid "billing address"
-msgstr ""
+msgstr "Adresse de facturation"
 
 #: includes/class-wc-privacy-erasers.php:49
 #: includes/class-wc-privacy-exporters.php:188
@@ -5476,7 +5476,7 @@ msgstr ""
 
 #: templates/myaccount/downloads.php:40 templates/myaccount/orders.php:100
 msgid "Browse products"
-msgstr ""
+msgstr "Boutique"
 
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/checkout/empty-cart/index.js:29
 #: packages/woocommerce-blocks/build/checkout-frontend.js:14
@@ -15016,7 +15016,7 @@ msgstr ""
 #. translators: use local order of street name and house number.
 #: includes/class-wc-countries.php:716
 msgid "House number and street name"
-msgstr ""
+msgstr "Numéro et nom de rue"
 
 #: packages/woocommerce-admin/src/Features/CustomerEffortScoreTracks.php:401
 msgid "How easy was it to add a product attribute?"
@@ -22955,7 +22955,7 @@ msgstr ""
 
 #: templates/myaccount/downloads.php:42
 msgid "No downloads available yet."
-msgstr ""
+msgstr "Pas encore de téléchargements"
 
 #: includes/class-wc-download-handler.php:209
 msgid "No file defined"
@@ -27118,11 +27118,11 @@ msgstr ""
 #: packages/woocommerce-blocks/build/cart-frontend.js:14
 #: packages/woocommerce-blocks/build/cart.js:1
 msgid "Proceed to Checkout"
-msgstr ""
+msgstr "Commander"
 
 #: templates/cart/proceed-to-checkout-button.php:26
 msgid "Proceed to checkout"
-msgstr ""
+msgstr "Commander"
 
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/edit.js:132
 #: packages/woocommerce-blocks/build/cart.js:1
@@ -31315,7 +31315,7 @@ msgstr ""
 
 #: includes/class-wc-product-variable.php:60
 msgid "Select options"
-msgstr ""
+msgstr "Afficher le produit"
 
 #. translators: %s: Product title
 #: includes/class-wc-product-variable.php:71
@@ -33727,11 +33727,11 @@ msgstr ""
 
 #: includes/wc-template-functions.php:1405
 msgid "Sort by average rating"
-msgstr ""
+msgstr "Trier par note"
 
 #: includes/wc-template-functions.php:1406
 msgid "Sort by latest"
-msgstr ""
+msgstr "Trier par ajout récent"
 
 #: includes/customizer/class-wc-shop-customizer.php:316
 #: includes/customizer/class-wc-shop-customizer.php:486
@@ -34523,7 +34523,7 @@ msgstr ""
 
 #: templates/single-product-reviews.php:81
 msgid "Submit"
-msgstr ""
+msgstr "Envoyer"
 
 #: templates/product-searchform.php:26
 msgctxt "submit button"
@@ -34575,7 +34575,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/blocks-checkout-editor.js:6
 #: packages/woocommerce-blocks/build/blocks-checkout.js:1
 msgid "Subtotal"
-msgstr ""
+msgstr "Sous-total"
 
 #: includes/abstracts/abstract-wc-order.php:2028
 #: includes/wc-template-functions.php:2147

@@ -218,7 +218,7 @@ if(!function_exists('HERITAGE_create_homepage')) {
                     'post_title' => ucwords('homepage'),
                     'post_name' => strtolower(str_replace(' ', '-', trim('Homepage'))),
                     'post_status' => 'publish',
-                    'post_content' => 'Homepage',
+                    'post_content' => '',
                     'post_type' => 'page',
                     'post_parent' => NULL
                 )
@@ -242,7 +242,7 @@ if(!function_exists('HERITAGE_create_articles_page')) {
                     'post_title' => ucwords('articles'),
                     'post_name' => strtolower(str_replace(' ', '-', trim('Articles'))),
                     'post_status' => 'publish',
-                    'post_content' => 'Articles',
+                    'post_content' => '',
                     'post_type' => 'page',
                     'post_parent' => NULL
                 )
