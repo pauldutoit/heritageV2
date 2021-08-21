@@ -150,7 +150,7 @@ function HERITAGE_initialize_theme_options()
 function HERITAGE_general_options_callback() {
     ?>
     <p>
-        <?php echo esc_html__('Setup custom logo and favicon.', 'heritage'); ?>
+        <?php echo esc_html__('Setup custom logo.', 'heritage'); ?>
     </p>
     <?php
     /*print theme settings*/
@@ -273,12 +273,6 @@ function HERITAGE_add_settings_fields()
             'label'     => esc_html__('Upload logo image', 'heritage'),
             'callback'  => 'HERITAGE_logo_select_cbk'
         ),
-        /** @deprecated  */
-        array (
-            'id'		=> 'lc_custom_favicon',
-            'label'		=> esc_html__('Upload custom favicon', 'heritage'),
-            'callback'	=> 'HERITAGE_favicon_select_cbk'
-        ),
         array (
             'id'		=> 'lc_custom_innner_bg_image',
             'label'		=> esc_html__('Upload custom background image', 'heritage'),
@@ -288,11 +282,6 @@ function HERITAGE_add_settings_fields()
             'id'		=> 'lc_menu_style',
             'label'		=> esc_html__('Choose menu style', 'heritage'),
             'callback'	=> 'HERITAGE_menu_style_cbk'
-        ),
-        array (
-            'id'		=> 'lc_default_color_scheme',
-            'label'		=> esc_html__('Choose default color scheme', 'heritage'),
-            'callback'	=> 'HERITAGE_default_colorscheme_cbk'
         ),
         array (
             'id'		=> 'lc_enable_sticky_menu',
@@ -481,23 +470,6 @@ function HERITAGE_add_settings_fields()
 
 }
 
-function HERITAGE_favicon_select_cbk() {
-    $favicon_url = HERITAGE_get_theme_option('heritage_theme_general_options', 'lc_custom_favicon');
-    ?>
-
-    <input id="lc_swp_favicon_upload_value" type="text" name="heritage_theme_general_options[lc_custom_favicon]" size="150" value="<?php echo esc_url($favicon_url); ?>"/>
-    <input id="lc_swp_upload_favicon_button" type="button" class="button" value="<?php echo esc_html__('Upload Favicon', 'heritage'); ?>" />
-    <input id="lc_swp_remove_favicon_button" type="button" class="button" value="<?php echo esc_html__('Remove Favicon', 'heritage'); ?>" />
-    <p class="description">
-        <?php echo esc_html__('Upload a custom favicon image.', 'heritage'); ?>
-    </p>
-
-    <div id="lc_favicon_image_preview">
-        <img class="lc_swp_setting_preview_favicon" src="<?php echo esc_url($favicon_url); ?>">
-    </div>
-    <?php
-}
-
 function HERITAGE_inner_bg_image_select_cbk() {
     $inner_bg_img_url = HERITAGE_get_theme_option('heritage_theme_general_options', 'lc_custom_innner_bg_image');
     ?>
@@ -531,24 +503,6 @@ function HERITAGE_menu_style_cbk() {
 
     <select id="lc_menu_style" name="heritage_theme_general_options[lc_menu_style]">
         <?php HERITAGE_render_select_options($menu_options, $menu_style); ?>
-    </select>
-    <?php
-}
-
-function HERITAGE_default_colorscheme_cbk() {
-    $color_scheme = HERITAGE_get_theme_option('theme_theme_general_options', 'lc_default_color_scheme');
-    if (empty($color_scheme)) {
-        $color_scheme = 'black_on_white';
-    }
-
-    $color_schemes = array(
-        esc_html__('White On Black', 'heritage')	=> 'white_on_black',
-        esc_html__('Black on White', 'heritage')	=> 'black_on_white'
-    );
-    ?>
-
-    <select id="lc_default_color_scheme" name="heritage_theme_general_options[lc_default_color_scheme]">
-        <?php HERITAGE_render_select_options($color_schemes, $color_scheme); ?>
     </select>
     <?php
 }

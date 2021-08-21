@@ -73,7 +73,7 @@ jQuery( document ).ready( function( $ ) {
 
 });
 var heritageStyleElement = document.createElement( 'style' ),
-        heritageStylesheet;
+    heritageStylesheet;
 
 // Append style element to head
 document.head.appendChild( heritageStyleElement );
@@ -102,8 +102,8 @@ function heritageAddStylesheet ( id, cssText, context ) {
 function heritageGuid () {
     function s4 () {
         return Math.floor( (1 + Math.random()) * 0x10000 )
-                .toString( 16 )
-                .substring( 1 );
+            .toString( 16 )
+            .substring( 1 );
     }
 
     return s4() + '-' + s4() + '-' + s4() + '-' + s4() ;
@@ -270,7 +270,7 @@ function handleJSStyling ( $ ) {
 
     $( ".lc_swp_cust_bg_color" ).each( function() {
         $(this).css("background-color", $(this).data("bgcolor"));
-    } );    
+    } );
 
     $( ".at_swp_js_css" ).each( function() {
         var custom_fs = $( this ).data( "atfs" );
@@ -382,11 +382,11 @@ function handleJSStyling ( $ ) {
             var bg_color_before = "default" != bg_color ? bg_color : $( this ).css( 'background-color' );
 
             $( this ).find( 'a' ).hover(
-                    function() {
-                        $( this ).css( 'background-color', bg_color_hover );
-                    }, function() {
-                        $( this ).css( 'background-color', bg_color_before );
-                    }
+                function() {
+                    $( this ).css( 'background-color', bg_color_hover );
+                }, function() {
+                    $( this ).css( 'background-color', bg_color_before );
+                }
             );
         }
 
@@ -398,11 +398,11 @@ function handleJSStyling ( $ ) {
             var color_before = "default" != txt_color ? txt_color : $( this ).css( 'color' );
 
             $( this ).find( 'a' ).hover(
-                    function() {
-                        $( this ).css( 'color', txt_color_hover );
-                    }, function() {
-                        $( this ).css( 'color', color_before );
-                    }
+                function() {
+                    $( this ).css( 'color', txt_color_hover );
+                }, function() {
+                    $( this ).css( 'color', color_before );
+                }
             );
         }
         if ((null != border_color) && ("default" != border_color)) {
@@ -412,12 +412,12 @@ function handleJSStyling ( $ ) {
         if ((null != border_color_hover) && ("default" != border_color_hover)) {
             var border_before = "default" != border_color ? border_color : $(this).css('border-color');
             $(this).find('a').hover(
-                    function() {
-                        $(this).css('border-color', border_color_hover);
-                    }, function() {
-                        $(this).css('border-color', border_before);
-                    }
-            );            
+                function() {
+                    $(this).css('border-color', border_color_hover);
+                }, function() {
+                    $(this).css('border-color', border_before);
+                }
+            );
         }
         if ("default" != custom_letter_spacing) {
             $(this).find('a').css("letter-spacing", custom_letter_spacing);
@@ -502,11 +502,11 @@ function handleBgColor ( $ ) {
 
 function handleHmbMenu ( $ ) {
     $( ".hmb_menu,.at_login_popup_close" ).hover(
-            function() {
-                $( this ).find( '.hmb_line' ).addClass( 'hover' );
-            }, function() {
-                $( this ).find( '.hmb_line' ).removeClass( 'hover' );
-            }
+        function() {
+            $( this ).find( '.hmb_line' ).addClass( 'hover' );
+        }, function() {
+            $( this ).find( '.hmb_line' ).removeClass( 'hover' );
+        }
     );
 
     $( '.hmb_menu' ).click( function() {
@@ -687,7 +687,7 @@ function customPageMenuStyle($) {
             /*classic*/
             $('header#at_page_header').find(".classic_header_icon > a").css("color", menu_col);
             $('header#at_page_header').find(".classic_header_icon > .lnr-magnifier").css("color", menu_col);
-            $('header#at_page_header').find(".classic_menu > ul > li:not(.current-menu-parent):not(.current-menu-item) > a").css("color", menu_col);            
+            $('header#at_page_header').find(".classic_menu > ul > li:not(.current-menu-parent):not(.current-menu-item) > a").css("color", menu_col);
 
             /*centered*/
             $('header#at_page_header').find(".lc_social_profile > a").css("color", menu_col);
@@ -705,7 +705,7 @@ function customPageMenuStyle($) {
         if (pre_col && (pre_col != "")) {
             $('.pre_header.cust_pre_header_style').find('.at_menu_message').css("color", pre_col);
             $('.pre_header.cust_pre_header_style').find(".classic_header_icon > a").css("color", pre_col);
-            $('.pre_header.cust_pre_header_style').find(".classic_header_icon > .lnr-magnifier").css("color", pre_col);            
+            $('.pre_header.cust_pre_header_style').find(".classic_header_icon > .lnr-magnifier").css("color", pre_col);
         }
     }
 
@@ -721,6 +721,7 @@ var enableSticky = function( $ ) {
     $( 'header' ).addClass( 'header_scroll' );
     // var el = document.querySelector(".menu-item a");
     $(".menu-item a").addClass("white-menu-item");
+    $(".classic_header_icon, .classic_header_icon a").addClass("white-menu-item");
     $( 'header' ).css( "visibility", "visible" );
 
 };
@@ -732,6 +733,7 @@ var disableSticky = function( $ ) {
         $( element ).removeClass( 'sticky_enabled' );
         $( element ).removeClass( 'header_scroll' );
         $(".menu-item a").removeClass("white-menu-item");
+        $(".classic_header_icon, .classic_header_icon a").removeClass("white-menu-item");
         if ( 0 == $( element ).attr( "class" ).length ) {
             $( element ).removeAttr( "class" );
         }
@@ -877,9 +879,9 @@ var runUnslider = function( $ ) {
     }
 
     var slider_arrows = {
-            prev : '<a class="unslider-arrow prev">' + prev_value + '</a>',
-            next : '<a class="unslider-arrow next">' + next_value + '</a>',
-        };
+        prev : '<a class="unslider-arrow prev">' + prev_value + '</a>',
+        next : '<a class="unslider-arrow next">' + next_value + '</a>',
+    };
 
     $( '.at_produts_slider_inner' ).unslider( {
         arrows   : slider_arrows,
@@ -940,17 +942,17 @@ var runUnslider = function( $ ) {
                 var left_dist = 10;
                 var right_dist = 10;
                 if (slider_container.find('.lookbook_single_container').width() <= RESPONSIVE_VIEW_RES_MAX) {
-                    left_dist = 0 - slider_container.parent().find('.unslider-look-arrow.prev').outerWidth()/2 +  
-                                slider_container.parent().find('.unslider-look-arrow.prev').outerHeight() + 15;
-                    right_dist = 0 - slider_container.parent().find('.unslider-look-arrow.next').outerWidth()/2 + 
-                                slider_container.parent().find('.unslider-look-arrow.next').outerHeight() + 15;
+                    left_dist = 0 - slider_container.parent().find('.unslider-look-arrow.prev').outerWidth()/2 +
+                        slider_container.parent().find('.unslider-look-arrow.prev').outerHeight() + 15;
+                    right_dist = 0 - slider_container.parent().find('.unslider-look-arrow.next').outerWidth()/2 +
+                        slider_container.parent().find('.unslider-look-arrow.next').outerHeight() + 15;
                 }
 
                 slider_container.parent().find('.unslider-look-arrow.prev').css("left", left_dist);
                 slider_container.parent().find('.unslider-look-arrow.next').css("right", right_dist);
             }
 
-            if (("text_over_image" == layout_style) || 
+            if (("text_over_image" == layout_style) ||
                 ("text_under_image" == layout_style)) {
 
                 placeLookbookSliderArrowsTextOverUnderImage(slider_container);
@@ -964,7 +966,7 @@ var runUnslider = function( $ ) {
 
                 $(window).on( "debouncedresize", function( event ) {
                     placeLookbookSliderArrowsTextOverUnderImage(slider_container);
-                });                 
+                });
             }
 
             var placeLookbookSliderArrowsTextAside = function(slider_container) {
@@ -978,11 +980,11 @@ var runUnslider = function( $ ) {
                 }
 
                 if (slider_container.parent().find(".look_content_aside").hasClass("show_on_left")) {
-                    slider_container.parent().find('.unslider-look-arrow').css("right", hdistance);    
+                    slider_container.parent().find('.unslider-look-arrow').css("right", hdistance);
                 } else {
                     slider_container.parent().find('.unslider-look-arrow').css("left", hdistance);
                 }
-                
+
                 slider_container.parent().find('.unslider-look-arrow').css("top", top_value);
                 slider_container.parent().find('.unslider-look-arrow.prev').css("margin-top", "50px");
             }
@@ -992,12 +994,12 @@ var runUnslider = function( $ ) {
 
                 $(window).on( "debouncedresize", function( event ) {
                     placeLookbookSliderArrowsTextAside(slider_container);
-                });                
+                });
             }
 
             setTimeout(function(){
                 slider_container.parent().find('.unslider-look-arrow').fadeIn("600");
-            }, 1000);            
+            }, 1000);
         });
 
         var look_slider = slider_container.unslider({
@@ -1083,16 +1085,16 @@ var handleGoToNextSection = function( $ ) {
         $( targetElement ).css( {'padding-top' : '0px'} );
         $( targetElement ).css( {'opacity' : '1'} );
         $( targetElement ).animate(
-                {
-                    'padding-top' : "25px",
-                    "opacity"     : "0"
-                },
-                {
-                    duration : speed,
-                    complete : function() {
-                        animateIcon( $( '.goto_next_section i' ), speed );
-                    }
+            {
+                'padding-top' : "25px",
+                "opacity"     : "0"
+            },
+            {
+                duration : speed,
+                complete : function() {
+                    animateIcon( $( '.goto_next_section i' ), speed );
                 }
+            }
         );
     };
     setTimeout( function() {
@@ -1326,45 +1328,45 @@ var heritageHandleLoginPopup = function( $ ) {
     var b = {
         init                  : function() {
             $( document.body ).on( "keyup change", "form.at_register #reg_password", this.strengthMeter ),
-                    $( "form.at_register" ).change()
+                $( "form.at_register" ).change()
         },
         strengthMeter         : function() {
             var c = $( "form.at_register" )
-                    , d = $( 'input[type="submit"]', c )
-                    , e = $( "#reg_password, #account_password, #password_1", c )
-                    , f = 1;
+                , d = $( 'input[type="submit"]', c )
+                , e = $( "#reg_password, #account_password, #password_1", c )
+                , f = 1;
             b.includeMeter( c, e ),
-                    f = b.checkPasswordStrength( c, e ),
-                    f < heritage_password_string_meter.min_password_strength && ! c.is( "form.checkout" ) ? d.attr( "disabled", "disabled" ).addClass( "disabled" ) : d.removeAttr( "disabled", "disabled" ).removeClass( "disabled" )
+                f = b.checkPasswordStrength( c, e ),
+                f < heritage_password_string_meter.min_password_strength && ! c.is( "form.checkout" ) ? d.attr( "disabled", "disabled" ).addClass( "disabled" ) : d.removeAttr( "disabled", "disabled" ).removeClass( "disabled" )
         },
         includeMeter          : function( b, c ) {
             var d = b.find( ".woocommerce-password-strength" );
             "" === c.val() ? (d.remove(),
-                    $( document.body ).trigger( "wc-password-strength-removed" )) : 0 === d.length && (c.after( '<div class="woocommerce-password-strength" aria-live="polite"></div>' ),
-                                   $( document.body ).trigger( "wc-password-strength-added" ))
+                $( document.body ).trigger( "wc-password-strength-removed" )) : 0 === d.length && (c.after( '<div class="woocommerce-password-strength" aria-live="polite"></div>' ),
+                $( document.body ).trigger( "wc-password-strength-added" ))
         },
         checkPasswordStrength : function( a, b ) {
             var c = a.find( ".woocommerce-password-strength" )
-                    , d = a.find( ".woocommerce-password-hint" )
-                    ,
-                    e = '<small class="woocommerce-password-hint">' + heritage_password_string_meter.i18n_password_hint + "</small>"
-                    , f = wp.passwordStrength.meter( b.val(), wp.passwordStrength.userInputBlacklist() )
-                    , g = "";
+                , d = a.find( ".woocommerce-password-hint" )
+                ,
+                e = '<small class="woocommerce-password-hint">' + heritage_password_string_meter.i18n_password_hint + "</small>"
+                , f = wp.passwordStrength.meter( b.val(), wp.passwordStrength.userInputBlacklist() )
+                , g = "";
             switch ( c.removeClass( "short bad good strong" ),
-                    d.remove(),
+                d.remove(),
             f < heritage_password_string_meter.min_password_strength && (g = " - " + heritage_password_string_meter.i18n_password_error),
-                    f ) {
+                f ) {
                 case 0:
                     c.addClass( "short" ).html( pwsL10n.short + g ),
-                            c.after( e );
+                        c.after( e );
                     break;
                 case 1:
                     c.addClass( "bad" ).html( pwsL10n.bad + g ),
-                            c.after( e );
+                        c.after( e );
                     break;
                 case 2:
                     c.addClass( "bad" ).html( pwsL10n.bad + g ),
-                            c.after( e );
+                        c.after( e );
                     break;
                 case 3:
                     c.addClass( "good" ).html( pwsL10n.good + g );
@@ -1457,28 +1459,28 @@ var heritageConfirmBox = function( opts ) {
     var options = jQuery.extend( {}, defaults, opts );
 
     jQuery.fancybox.open(
-            '<div class="at_swp_popup_dialog at_confirm">' +
-            '<h3 class="at_popup_dialog_title">' + options.title + '</h3>' +
-            '<p class="at_popup_dialog_text">' + options.message + '</p>' +
-            '<p class="at_popup_dialog_buttons">' +
-            '<a data-value="0" data-fancybox-close class="button alt alignright">' + options.cancelButtonText + '</a>' +
-            '<a data-value="1" data-fancybox-close class="button alignright">' + options.okButtonText + '</a>' +
-            '</p>' +
-            '</div>', {
-                smallBtn          : false,
-                buttons           : false,
-                keyboard          : false,
-                closeClickOutside : false,
-                baseClass         : 'at_swp_popup',
-                slideClass        : 'atSlideFromTop',
-                afterClose        : function( instance, e ) {
-                    var button = e ? e.target || e.currentTarget : null;
-                    var value = button ? $( button ).data( 'value' ) : 0;
-                    if ( options.callback && jQuery.isFunction( options.callback ) ) {
-                        options.callback( value );
-                    }
+        '<div class="at_swp_popup_dialog at_confirm">' +
+        '<h3 class="at_popup_dialog_title">' + options.title + '</h3>' +
+        '<p class="at_popup_dialog_text">' + options.message + '</p>' +
+        '<p class="at_popup_dialog_buttons">' +
+        '<a data-value="0" data-fancybox-close class="button alt alignright">' + options.cancelButtonText + '</a>' +
+        '<a data-value="1" data-fancybox-close class="button alignright">' + options.okButtonText + '</a>' +
+        '</p>' +
+        '</div>', {
+            smallBtn          : false,
+            buttons           : false,
+            keyboard          : false,
+            closeClickOutside : false,
+            baseClass         : 'at_swp_popup',
+            slideClass        : 'atSlideFromTop',
+            afterClose        : function( instance, e ) {
+                var button = e ? e.target || e.currentTarget : null;
+                var value = button ? $( button ).data( 'value' ) : 0;
+                if ( options.callback && jQuery.isFunction( options.callback ) ) {
+                    options.callback( value );
                 }
             }
+        }
     );
 };
 
@@ -1494,25 +1496,25 @@ var heritageAlertBox = function( opts ) {
     var options = jQuery.extend( {}, defaults, opts );
 
     jQuery.fancybox.open(
-            '<div class="at_swp_popup_dialog at_alert">' +
-            '<h3 class="at_popup_dialog_title">' + options.title + '</h3>' +
-            '<p class="at_popup_dialog_text">' + options.message + '</p>' +
-            '<p class="at_popup_dialog_buttons">' +
-            '<a data-fancybox-close class="button alignright">' + options.okButtonText + '</a>' +
-            '</p>' +
-            '</div>', {
-                smallBtn          : false,
-                buttons           : false,
-                closeClickOutside : false,
-                baseClass         : 'at_swp_popup',
-                slideClass        : 'atSlideFromTop',
-                keyboard          : false,
-                afterClose        : function() {
-                    if ( options.callback && jQuery.isFunction( options.callback ) ) {
-                        options.callback();
-                    }
+        '<div class="at_swp_popup_dialog at_alert">' +
+        '<h3 class="at_popup_dialog_title">' + options.title + '</h3>' +
+        '<p class="at_popup_dialog_text">' + options.message + '</p>' +
+        '<p class="at_popup_dialog_buttons">' +
+        '<a data-fancybox-close class="button alignright">' + options.okButtonText + '</a>' +
+        '</p>' +
+        '</div>', {
+            smallBtn          : false,
+            buttons           : false,
+            closeClickOutside : false,
+            baseClass         : 'at_swp_popup',
+            slideClass        : 'atSlideFromTop',
+            keyboard          : false,
+            afterClose        : function() {
+                if ( options.callback && jQuery.isFunction( options.callback ) ) {
+                    options.callback();
                 }
             }
+        }
     );
 };
 
@@ -1580,8 +1582,8 @@ var handlePostRating = function($) {
     } );
     $('body').on( 'click', '#comments .comment-form-rating p.stars a', function() {
         var $star = $( this ),
-                $rating = $( this ).closest( '#respond' ).find( '#rating' ),
-                $container = $( this ).closest( '.stars' );
+            $rating = $( this ).closest( '#respond' ).find( '#rating' ),
+            $container = $( this ).closest( '.stars' );
 
         $rating.val( $star.text() );
         $star.siblings( 'a' ).removeClass( 'active' );
@@ -1605,10 +1607,10 @@ function handleFooterSidebarsHeight($) {
         case 25:
             sidebars.each(function(){
                 var sHeight = $( this ).outerHeight(true);
-               if(  sHeight> minHeight12 ){
-                   minHeight12 = sHeight;
-                   minHeight34 = sHeight;
-               }
+                if(  sHeight> minHeight12 ){
+                    minHeight12 = sHeight;
+                    minHeight34 = sHeight;
+                }
             });
             break;
         case 50:
@@ -1674,13 +1676,13 @@ function heritageHandleType2TemplateVariationChangeImage($) {
         $(this).bind('found_variation reset_image', function(event, variation){
 
             var $form = $(this),
-                    $product = $form.closest( '.product' ),
-                    $product_gallery = $( '.heritage_template-type_2' ).find( '.woocommerce-product-gallery' ),
-                    $gallery_img = $product.find( '.flex-control-nav li:eq(0) img' ),
-                    $product_img_wrap = $product_gallery.find( '.woocommerce-product-gallery__image, .woocommerce-product-gallery__image--placeholder' ).eq( 0 ),
-                    $product_img = $product_img_wrap.find( '.wp-post-image' ),
-                    $product_thumb_img = $( '.heritage_template-type_2' ).find('.heritage_gallery_thumbnails').find( '.wp-post-thumb-image' ),
-                    $product_link = $product_img_wrap.find( 'a' ).eq( 0 );
+                $product = $form.closest( '.product' ),
+                $product_gallery = $( '.heritage_template-type_2' ).find( '.woocommerce-product-gallery' ),
+                $gallery_img = $product.find( '.flex-control-nav li:eq(0) img' ),
+                $product_img_wrap = $product_gallery.find( '.woocommerce-product-gallery__image, .woocommerce-product-gallery__image--placeholder' ).eq( 0 ),
+                $product_img = $product_img_wrap.find( '.wp-post-image' ),
+                $product_thumb_img = $( '.heritage_template-type_2' ).find('.heritage_gallery_thumbnails').find( '.wp-post-thumb-image' ),
+                $product_link = $product_img_wrap.find( 'a' ).eq( 0 );
 
             if ( variation && variation.image && variation.image.src && variation.image.src.length > 1 ) {
                 $product_img.wc_set_variation_attr( 'src', variation.image.src );
@@ -1801,7 +1803,7 @@ function heritageHandleProductsMasonry($) {
                     $(this).removeClass("bricks_responsive1");
                 }
 
-                if ( ((bricks_on_row_responsive === 2) || (bricks_on_row_responsive === 3)) 
+                if ( ((bricks_on_row_responsive === 2) || (bricks_on_row_responsive === 3))
                     && container_outer_width < 1200)  {
                     $(this).addClass("bricks_responsive2_3");
                 } else {
@@ -1928,4 +1930,8 @@ function handleFullScreenSearch () {
         }
 
     } );
+
+    $('#discover_link').on("click",function(){
+        $('html,body').animate({scrollTop:900},'slow');
+    });
 }

@@ -140,7 +140,7 @@
 
 
         <h1>Comment faire ? c'est très simple, commencez par remplir ce formulaire qui va permettre de cibler vos goûts. Ensuite un conseiller Heritage vous contactera dans les quelques jours suivants pour commencer la collaboration. Pas d'inquiétude ça ne nécessite aucune compétence, nos designer s'occupent de transformer vos rêves en réalité</h1>
-        <a href="<?= get_permalink(get_page_by_title('Customization', 'OBJECT', 'page')) ?>" class="heri-btn">Je veux créer mon tapis</a>
+        <a href="<?= get_permalink(get_page_by_title('Personnalisation', 'OBJECT', 'page')) ?>" class="heri-btn">Je veux créer mon tapis</a>
 
     </div>
     <div class="heri" style="margin-top: 100px;">
@@ -161,6 +161,12 @@
 
         </div>
     </div>
+
+    <h1>Quelques idées ...</h1>
+    <?php echo do_shortcode( '[gs_pinterest]' ); ?>
+
 </div>
+
+
 
 <?php get_footer() ?>
