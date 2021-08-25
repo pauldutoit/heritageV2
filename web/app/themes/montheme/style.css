@@ -48,7 +48,12 @@ a, p a {
     cursor          : pointer;
 }
 
-p {
+
+.woocommerce-MyAccount-content p{
+    color: black!important;
+}
+
+.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description.panel.entry-content.wc-tab p{
     color: black!important;
 }
 
@@ -773,12 +778,8 @@ form.search-form {
     margin-left: 20px;
 }
 
-.woocommerce-Price-amount:first-child {
-    display: none;
-}
 
 .blocks-gallery-item {
-    width: 20px!important;
     height: 60px;
 }
 
@@ -790,10 +791,14 @@ form.search-form {
     width: 60px;
 }
 
+.summary.entry-summary .woocommerce-Price-amount bdi {
+    font-size: 25px;
+}
 
 .woocommerce-Price-amount bdi {
     color: #99CC33;
     font-size: 17px;
+    font-weight: bold;
 }
 
 a.heritage_search_post:hover > .heritage_post_title > .search_result_post_title {
@@ -911,7 +916,6 @@ input[type="search"]::-ms-clear {
 .lc_big_content_padding div p {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 60px;
 }
 
@@ -1002,9 +1006,9 @@ input[type="search"]::-ms-clear {
     padding-right: 15px;
 }
 
-.header_scroll {
-    background-color: black;
-}
+/*.header_scroll {*/
+/*    background-color: black;*/
+/*}*/
 
 .white-menu-item {
     color: white!important;
@@ -2055,10 +2059,10 @@ label.woo_rememberme_label,
     font-style: italic;
 }
 
-.product .button {
-    background-color: #0099cc!important;
-    border: none!important;
-}
+/*.product .button {*/
+/*    background-color: #0099cc!important;*/
+/*    border: none!important;*/
+/*}*/
 
 .woocommerce-MyAccount-content .button, .product .button {
     padding: 0 20px!important;
@@ -2072,6 +2076,10 @@ label.woo_rememberme_label,
 
 .title_productpage {
     color: #959595!important;
+}
+
+#block-25 .wp-block-gallery {
+    justify-content: center;
 }
 
 .custom_link {
@@ -3941,7 +3949,7 @@ a.at_link_line_before:before {
 /*woocommerce styling*/
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 7px;
     text-indent: 7px;
@@ -4141,7 +4149,7 @@ a.at_link_line_before:before {
 
 h1.product_title {
     font-weight    : 700;
-    letter-spacing : 14px;
+    letter-spacing : 7px;
     font-size      : 24px;
     text-transform: uppercase;
     margin: 0;
@@ -7979,12 +7987,31 @@ a.look_link:hover::after {
     min-width:200px;
 }
 
+a.added_to_cart.wc-forward{
+    display:none!important;
+}
+
+.quantity.noselect{
+    display:none;
+}
+
 .text {
     flex: 2;
     padding: 20px;
 }
 
-/*css du serge le S Pour FORMNIATOR*/
+.forminator-field {
+    padding: 20px !important;
+    border: 1px #e0e0e0 solid !important;
+    border-radius: 8px;
+}
+
+span.forminator-radio-image span {
+    width: 300px !important;
+    height: 300px !important;
+}
+
+/** FORMINATOR **/
 .sui-2-6-0 .sui-dialog .sui-dialog-content {
     max-width: 1200px !important;
 }
@@ -8041,4 +8068,8 @@ span.forminator-radio-label {
 .forminator-field {
     /*display: flex;*/
     /*justify-content: space-around;*/
+}
+
+p.stock.in-stock{
+    display: none;
 }

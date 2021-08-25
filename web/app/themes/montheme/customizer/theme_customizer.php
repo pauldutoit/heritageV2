@@ -6,7 +6,7 @@
 */
 
 class HERITAGE_Customize {
-    //This hooks into 'customize_register' (available as of WP 3.4)
+    //This hooks into 'customize_register'
     public static function register($wp_customize)
     {
         require_once(get_template_directory()."/customizer/alpha-color-picker-customizer.php");

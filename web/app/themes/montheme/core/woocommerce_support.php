@@ -154,6 +154,10 @@ function HERITAGE_woocommerce_wrapper_start() {
     echo '<div class="lc_content_full '.esc_attr($boxed_class). ' lc_big_content_padding">';
 }
 
+
+
+
+
 function HERITAGE_woocommerce_wrapper_end() {
     echo '</div>';
 }
@@ -308,8 +312,8 @@ function HERITAGE_carpet_customization()
 {
     /**  @TODO traduction **/
     ?>
-    <div>
-        <p><?= esc_attr("Pour ceux qui désirent un tapis unique et personnalisé sur le bout des ongles"); ?> <a href="<?= get_permalink(get_page_by_title('Personnalisation')) ?>">&nbsp;Personnaliser mon tapis </a></p>
+    <div class="custom_mat_block">
+        <p><span class="title_productpage"><?= esc_attr("Pour ceux qui désirent un tapis unique et personnalisé sur le bout des ongles"); ?></span> <a class="custom_link" href="<?= get_permalink(get_page_by_title('Créer mon tapis')) ?>"> Créer mon tapis </a></p>
     </div>
     <?php
 }
@@ -494,3 +498,21 @@ if(!function_exists('HERITAGE_create_color_taxonomy')) {
     }
 }
 add_action('init', 'HERITAGE_create_color_taxonomy', 0);
+
+
+//function HERITAGE_remove_quantity_add_to_cart( $html, $product ) {
+//
+//    if ( $product && $product->is_type( 'variable' ) && $product->is_purchasable() && $product->is_in_stock() && ! $product->is_sold_individually() ) {
+//        $html = '<form action="' . esc_url( $product->add_to_cart_url() ) . '" class="cart" method="post" enctype="multipart/form-data">';
+//        $html .= woocommerce_quantity_input( array(), $product, false );
+//        $html .= '<button type="submit" class="button alt">' . esc_html( $product->add_to_cart_text() ) . '</button>';
+//        $html .= '</form>';
+//    }
+//    return $html;
+//}
+//add_filter( 'woocommerce_loop_add_to_cart_link', 'HERITAGE_remove_quantity_add_to_cart', 10, 2 );
+
+function wc_remove_all_quantity_fields( $return, $product ) {
+    return true;
+}
+add_filter( 'woocommerce_is_sold_individually', 'wc_remove_all_quantity_fields', 10,2);

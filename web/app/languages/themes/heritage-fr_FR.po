@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: heritage\n"
-"POT-Creation-Date: 2021-08-09 13:48+0200\n"
-"PO-Revision-Date: 2021-08-20 14:18+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-22 10:54+0200\n"
+"PO-Revision-Date: 2021-08-23 14:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "Language: fr_FR\n"
@@ -13,7 +14,6 @@ msgstr ""
 "X-Poedit-Basepath: ../../themes/montheme\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __;esc_html__;esc_attr_e;esc_attr;esc_html_e\n"
-"Report-Msgid-Bugs-To: \n"
 "X-Loco-Version: 2.5.3; wp-5.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -331,19 +331,19 @@ msgstr ""
 msgid "Comments "
 msgstr "Commentaires "
 
-#: comments.php:53 comments.php:96
+#: comments.php:53 comments.php:90
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
 msgstr ""
 
-#: comments.php:65 comments.php:107
+#: comments.php:65 comments.php:101
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: comments.php:118
+#: comments.php:112
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:132
+#: comments.php:126
 msgid "Leave a Comment"
 msgstr "Laisser un commentaire"
 
@@ -505,6 +505,162 @@ msgstr ""
 
 #: core/woocommerce_support.php:467
 msgid "Size"
+msgstr "Taille"
+
+#: core/woocommerce_support.php:487
+msgid "Color"
+msgstr "Couleur"
+
+#: customizer/theme_customizer.php:25
+msgid "Vibrant Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:28
+msgid "Choose the link color"
+msgstr ""
+
+#: customizer/theme_customizer.php:48
+msgid "Secondary Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:60
+msgid "Menu Colors"
+msgstr ""
+
+#: customizer/theme_customizer.php:63
+#, fuzzy
+#| msgid "Choose menu style"
+msgid "Choose menu colors"
+msgstr "Choisir le style du menu"
+
+#: customizer/theme_customizer.php:82
+#, fuzzy
+#| msgid "Copyrigth Text Background Color"
+msgid "Menu Bar Background Color"
+msgstr "Couleur de fond du texte copyright"
+
+#: customizer/theme_customizer.php:104
+#, fuzzy
+#| msgid "Copyrigth Text Background Color"
+msgid "Sticky Menu Bar Background Color"
+msgstr "Couleur de fond du texte copyright"
+
+#: customizer/theme_customizer.php:126
+#, fuzzy
+#| msgid "Copyrigth Text Background Color"
+msgid "Mobile Menu Background Color"
+msgstr "Couleur de fond du texte copyright"
+
+#: customizer/theme_customizer.php:149
+msgid "Mobile Menu Border Bottom Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:172
+#, fuzzy
+#| msgid "Copyrigth Text Background Color"
+msgid "Above The Menu Bar Background Color"
+msgstr "Couleur de fond du texte copyright"
+
+#: customizer/theme_customizer.php:195
+msgid "Menu Text Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:218
+msgid "Menu Text Color on Hover"
+msgstr ""
+
+#: customizer/theme_customizer.php:241
+msgid "Current Menu Item Text Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:264
+#, fuzzy
+#| msgid "Copyrigth Text Background Color"
+msgid "Sub Menu Background Color"
+msgstr "Couleur de fond du texte copyright"
+
+#: customizer/theme_customizer.php:286
+msgid "Creative Menu Overlay Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:309
+msgid ""
+"Top Icons Color For Creative Menu. Also, the color for mobile menu icons, "
+"menu icon and search icon."
+msgstr ""
+
+#: customizer/theme_customizer.php:332
+msgid "Text color for login, sign-up and wish list links on the menu bar."
+msgstr ""
+
+#: customizer/theme_customizer.php:342
+msgid "Button Colors"
+msgstr ""
+
+#: customizer/theme_customizer.php:345
+msgid "Set button colors."
+msgstr ""
+
+#: customizer/theme_customizer.php:361
+msgid "Buttons Colors"
+msgstr ""
+
+#: customizer/theme_customizer.php:367
+msgid "Use Theme Defaults"
+msgstr ""
+
+#: customizer/theme_customizer.php:368
+msgid "Use Custom Colors"
+msgstr ""
+
+#: customizer/theme_customizer.php:387
+#, fuzzy
+#| msgid "Copyrigth Text Background Color"
+msgid "Button Background Color"
+msgstr "Couleur de fond du texte copyright"
+
+#: customizer/theme_customizer.php:408
+msgid "Button Text Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:429
+msgid "Button Border Color"
+msgstr ""
+
+#: customizer/theme_customizer.php:450
+#, fuzzy
+#| msgid "Copyrigth Text Background Color"
+msgid "Button Background Color On Hover"
+msgstr "Couleur de fond du texte copyright"
+
+#: customizer/theme_customizer.php:471
+msgid "Button Text Color On Hover"
+msgstr ""
+
+#: customizer/theme_customizer.php:492
+msgid "Button Border Color On Hover"
+msgstr ""
+
+#: customizer/theme_customizer.php:503
+msgid "Various Colors"
+msgstr ""
+
+#: customizer/theme_customizer.php:506
+msgid "Set general colors."
+msgstr ""
+
+#: customizer/theme_customizer.php:525
+#, fuzzy
+#| msgid "Background color for the copyright text area."
+msgid "Background Color For Blog Items With No Featured Image"
+msgstr "Couleur de fond pour la section copyright."
+
+#: customizer/theme_customizer.php:548
+msgid "Background Color For Minciart And Wishlist Popups"
+msgstr ""
+
+#: customizer/theme_customizer.php:572
+msgid "Background Color Product Actions Overlay On Shop Page"
 msgstr ""
 
 #: index.php:36
@@ -560,8 +716,10 @@ msgid "Shop Options"
 msgstr "Options de la boutique"
 
 #: settings/theme_settings.php:153
-msgid "Setup custom logo and favicon."
-msgstr ""
+#, fuzzy
+#| msgid "Upload a custom logo image."
+msgid "Setup custom logo."
+msgstr "Uploader une image de logo personnalisée."
 
 #: settings/theme_settings.php:171
 msgid "Provide the URL to the social profiles you would like to display."
@@ -597,203 +755,129 @@ msgstr "Uploader une image de logo personnalisée."
 msgid "Upload logo image"
 msgstr "Uploader un logo"
 
-#: settings/theme_settings.php:279
-msgid "Upload custom favicon"
-msgstr "Uploader un favicon"
-
-#: settings/theme_settings.php:284
+#: settings/theme_settings.php:278
 msgid "Upload custom background image"
 msgstr "Uploader une image de fond"
 
-#: settings/theme_settings.php:289
+#: settings/theme_settings.php:283
 msgid "Choose menu style"
 msgstr "Choisir le style du menu"
 
-#: settings/theme_settings.php:294
-msgid "Choose default color scheme"
-msgstr ""
-
-#: settings/theme_settings.php:299
+#: settings/theme_settings.php:288
 msgid "Enable sticky menu"
 msgstr "Activer le menu collant"
 
-#: settings/theme_settings.php:304
+#: settings/theme_settings.php:293
 msgid "Login Popup"
 msgstr "Popup de login"
 
-#: settings/theme_settings.php:309
+#: settings/theme_settings.php:298
 msgid "Enable back to top button"
 msgstr "Bouton ancre"
 
-#: settings/theme_settings.php:327
+#: settings/theme_settings.php:316
 msgid "Facebook URL"
 msgstr ""
 
-#: settings/theme_settings.php:332
+#: settings/theme_settings.php:321
 msgid "Twitter URL"
 msgstr ""
 
-#: settings/theme_settings.php:337
+#: settings/theme_settings.php:326
 msgid "Google+ URL"
 msgstr ""
 
-#: settings/theme_settings.php:342
+#: settings/theme_settings.php:331
 msgid "YouTube URL"
 msgstr ""
 
-#: settings/theme_settings.php:347
+#: settings/theme_settings.php:336
 msgid "Pinterest URL"
 msgstr ""
 
-#: settings/theme_settings.php:365 settings/theme_settings.php:427
+#: settings/theme_settings.php:354 settings/theme_settings.php:416
 msgid "Contact address"
 msgstr "Adresse de contact"
 
-#: settings/theme_settings.php:370 settings/theme_settings.php:432
+#: settings/theme_settings.php:359 settings/theme_settings.php:421
 msgid "Contact phones"
 msgstr "Téléphone"
 
-#: settings/theme_settings.php:375 settings/theme_settings.php:437
+#: settings/theme_settings.php:364 settings/theme_settings.php:426
 msgid "Contact Fax Number"
 msgstr "Numero de Fax"
 
-#: settings/theme_settings.php:380 settings/theme_settings.php:442
+#: settings/theme_settings.php:369 settings/theme_settings.php:431
 msgid "Contact E-mail"
 msgstr "E-mail"
 
-#: settings/theme_settings.php:389
+#: settings/theme_settings.php:378
 msgid "Copyright text"
 msgstr "Texte de copyright"
 
-#: settings/theme_settings.php:394
+#: settings/theme_settings.php:383
 msgid "Copyrigth URL"
 msgstr "URL de copyright"
 
-#: settings/theme_settings.php:399
+#: settings/theme_settings.php:388
 msgid "Copyrigth Text Background Color"
 msgstr "Couleur de fond du texte copyright"
 
-#: settings/theme_settings.php:404
+#: settings/theme_settings.php:393
 msgid "Footer widgets color overlay"
 msgstr ""
 
-#: settings/theme_settings.php:409
+#: settings/theme_settings.php:398
 msgid "Place social icons on footer"
 msgstr "Icones réseaux sociaux dans le footer"
 
-#: settings/theme_settings.php:461
+#: settings/theme_settings.php:450
 msgid "Products View Mode"
 msgstr "Mode d'affichage des produits"
 
-#: settings/theme_settings.php:466
+#: settings/theme_settings.php:455
 msgid "Products Per Row"
 msgstr "Produits par ligne"
 
-#: settings/theme_settings.php:490
-msgid ""
-"Hi, your WordPress version is higher than 4.3 and allows you to use the "
-"built in WordPress functionality related to custom favicon."
-msgstr ""
-
-#: settings/theme_settings.php:492
-msgid ""
-"Please go to Appearance - Customize - Site Identity and choose the favicon "
-"from that place."
-msgstr ""
-
-#: settings/theme_settings.php:494
-msgid ""
-"For your WordPress version, the Upload custom favicon option will be "
-"ignored, the one from customizer will be used."
-msgstr ""
-
-#: settings/theme_settings.php:496
-msgid "This option exists only for backward compatibility reasons."
-msgstr ""
-
-#: settings/theme_settings.php:503
-msgid "Upload Favicon"
-msgstr "Ajouter un Favicon"
-
-#: settings/theme_settings.php:504
-msgid "Remove Favicon"
-msgstr "Supprimer un Favicon"
-
-#: settings/theme_settings.php:506
-msgid "Upload a custom favicon image."
-msgstr "Uploader une image de favicon personnalisée."
-
-#: settings/theme_settings.php:520
+#: settings/theme_settings.php:478
 msgid "Upload Image"
 msgstr "Ajouter une image"
 
-#: settings/theme_settings.php:521
+#: settings/theme_settings.php:479
 msgid "Remove Image"
 msgstr "Supprimer une Image"
 
-#: settings/theme_settings.php:523
+#: settings/theme_settings.php:481
 msgid "Upload a custom background image for inner pages."
 msgstr "Uploader une image de fond personnalisée."
 
-#: settings/theme_settings.php:539
+#: settings/theme_settings.php:497
 msgid "Creative Menu"
 msgstr ""
 
-#: settings/theme_settings.php:540
+#: settings/theme_settings.php:498
 msgid "Classic Menu"
 msgstr ""
 
-#: settings/theme_settings.php:541
+#: settings/theme_settings.php:499
 msgid "Centered Menu"
 msgstr ""
 
-#: settings/theme_settings.php:542
+#: settings/theme_settings.php:500
 msgid "Classic Doubled Menu"
 msgstr ""
 
-#: settings/theme_settings.php:559
-msgid "White On Black"
-msgstr ""
-
-#: settings/theme_settings.php:560
-msgid "Black on White"
-msgstr ""
-
-#: settings/theme_settings.php:568
-msgid "Default color scheme used for the website content."
-msgstr ""
-
-#: settings/theme_settings.php:569
-msgid "Black On White - black text on white background."
-msgstr ""
-
-#: settings/theme_settings.php:570
-msgid "White On Black - white text on black background."
-msgstr ""
-
-#: settings/theme_settings.php:571
-msgid ""
-"If you change this value, you might need to change the background color or "
-"image for your website according to the color scheme."
-msgstr ""
-
-#: settings/theme_settings.php:572
-msgid ""
-"You can change the background color for your website from Appearance - "
-"Customize - Colors."
-msgstr ""
-
-#: settings/theme_settings.php:585 settings/theme_settings.php:604
-#: settings/theme_settings.php:625 settings/theme_settings.php:707
+#: settings/theme_settings.php:518 settings/theme_settings.php:537
+#: settings/theme_settings.php:558 settings/theme_settings.php:640
 msgid "Enabled"
 msgstr "Activer"
 
-#: settings/theme_settings.php:586 settings/theme_settings.php:605
-#: settings/theme_settings.php:626 settings/theme_settings.php:708
+#: settings/theme_settings.php:519 settings/theme_settings.php:538
+#: settings/theme_settings.php:559 settings/theme_settings.php:641
 msgid "Disabled"
 msgstr "Désactiver"
 
-#: settings/theme_settings.php:593
+#: settings/theme_settings.php:526
 msgid ""
 "Enable or disable sticky menu bar. If enabled, menu will stay on top whyle "
 "the user moves the scrollbar."
@@ -801,67 +885,67 @@ msgstr ""
 "Activer ou désactiver le menu collant. Si activé, le menu restera en haut de "
 "la page même en cas de scroll."
 
-#: settings/theme_settings.php:612
+#: settings/theme_settings.php:545
 msgid "Enable or disable login popup on frontend"
-msgstr "Activer ou désactiver la popup de login en front."
+msgstr "Activer ou désactiver la popup de login en front"
 
-#: settings/theme_settings.php:633
+#: settings/theme_settings.php:566
 msgid "Enable or disable back to top button."
 msgstr "Activer ou désactiver l'ancre."
 
-#: settings/theme_settings.php:716
+#: settings/theme_settings.php:649
 msgid "Place social profiles icons on copyright area."
 msgstr "Afficher les icônes de réseaux sociaux dans le footer."
 
-#: settings/theme_settings.php:717
+#: settings/theme_settings.php:650
 msgid "Please make sure that copyright text is filled in the above field."
 msgstr "Assurez vous que le texte de copyright est renseigné ci-dessus."
 
-#: settings/theme_settings.php:734
+#: settings/theme_settings.php:667
 msgid ""
 "Color overlay for the footer widgets area. Can be used as background color "
 "or as color over the background image."
 msgstr ""
 
-#: settings/theme_settings.php:751
+#: settings/theme_settings.php:684
 msgid "Background color for the copyright text area."
 msgstr "Couleur de fond pour la section copyright."
 
-#: settings/theme_settings.php:786
+#: settings/theme_settings.php:719
 msgid "This is the email address shown on contact page."
 msgstr ""
 
-#: settings/theme_settings.php:788
+#: settings/theme_settings.php:721
 msgid ""
 "To set the recipient email for the contact form, please go to Settings - "
 "Heritage Core Settings."
 msgstr ""
 
-#: settings/theme_settings.php:806
+#: settings/theme_settings.php:739
 msgid "Grid"
 msgstr "Grille"
 
-#: settings/theme_settings.php:807
+#: settings/theme_settings.php:740
 msgid "List"
 msgstr "Liste"
 
-#: settings/theme_settings.php:816
+#: settings/theme_settings.php:749
 msgid "Select product list view mode"
 msgstr "Choisir le mode d'affichage"
 
-#: settings/theme_settings.php:830
+#: settings/theme_settings.php:763
 msgid "3 Columns"
 msgstr "3 Colonnes"
 
-#: settings/theme_settings.php:831
+#: settings/theme_settings.php:764
 msgid "4 Columns"
 msgstr "4 Colonnes"
 
-#: settings/theme_settings.php:832
+#: settings/theme_settings.php:765
 msgid "5 Columns"
 msgstr "5 Colonnes"
 
-#: settings/theme_settings.php:841
+#: settings/theme_settings.php:774
 msgid "Select number of products per row in products lists (grid mode)"
 msgstr ""
 "Choisir le nombre de produits par ligne dans le listing produit (en mode "
@@ -938,7 +1022,7 @@ msgstr ""
 
 #: templates/login-popup.php:36 templates/login-popup.php:106
 msgid "Password"
-msgstr ""
+msgstr "Mot de passe"
 
 #: templates/login-popup.php:49
 msgid "Remember me"
@@ -982,17 +1066,19 @@ msgstr ""
 
 #: templates/menu/centered_menu.php:84
 #: templates/menu/classic_double_menu.php:39 templates/menu/classic_menu.php:66
-#: templates/menu/creative_menu.php:60
+#: templates/menu/creative_menu.php:60 templates/menu/mobile_menu.php:39
 msgid "View your shopping cart"
 msgstr "Voir mon panier"
 
 #: templates/menu/classic_double_menu.php:113
 #: templates/menu/classic_menu.php:101 templates/menu/creative_menu.php:83
+#: templates/menu/mobile_menu.php:57 woocommerce/checkout/thankyou.php:37
 msgid "My Account"
 msgstr "Mon compte"
 
 #: templates/menu/classic_double_menu.php:116
 #: templates/menu/classic_menu.php:104 templates/menu/creative_menu.php:86
+#: templates/menu/mobile_menu.php:60
 msgid "at_to_login_popup"
 msgstr ""
 
@@ -1007,7 +1093,7 @@ msgstr "Inscription"
 msgid "full"
 msgstr ""
 
-#: templates/menu/creative_menu.php:87
+#: templates/menu/creative_menu.php:87 templates/menu/mobile_menu.php:61
 msgid "Login &#47; Signup"
 msgstr "Connexion &#47; Inscription"
 
@@ -1092,6 +1178,7 @@ msgstr "Quantité"
 
 #: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:117
 #: woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/thankyou.php:50
 msgid "Total"
 msgstr ""
 
@@ -1146,11 +1233,41 @@ msgstr "Commander"
 
 #: woocommerce/checkout/review-order.php:132
 msgid "Grand Total"
+msgstr "Total"
+
+#: woocommerce/checkout/thankyou.php:30
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
 msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Order received"
+msgstr "Commandes reçues"
+
+#: woocommerce/checkout/thankyou.php:43 woocommerce/checkout/thankyou.php:106
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+msgid "Order"
+msgstr "Commande"
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Date"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:85
+msgid "Payment"
+msgstr "Paiement"
 
 #: woocommerce/single-product/add-to-cart/variable.php:32
 msgid "This product is currently out of stock and unavailable."
-msgstr ""
+msgstr "Ce produit est actuellement indisponible."
 
 #: woocommerce/single-product/add-to-cart/variable.php:49
 #, php-format
@@ -1159,8 +1276,20 @@ msgstr " %s"
 
 #: woocommerce/single-product/add-to-cart/variable.php:62
 msgid "Clear selection"
-msgstr ""
+msgstr "Supprimer la sélection"
 
 #: woocommerce/single-product/product-thumbnails.php:39
 msgid "columns-"
 msgstr ""
+
+#~ msgid "Upload custom favicon"
+#~ msgstr "Uploader un favicon"
+
+#~ msgid "Upload Favicon"
+#~ msgstr "Ajouter un Favicon"
+
+#~ msgid "Remove Favicon"
+#~ msgstr "Supprimer un Favicon"
+
+#~ msgid "Upload a custom favicon image."
+#~ msgstr "Uploader une image de favicon personnalisée."
