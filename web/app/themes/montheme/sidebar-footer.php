@@ -19,7 +19,7 @@ if ("0" == $remove_footer) {
     $header_width = 'lc_swp_'.$header_width; /*lc_swp_full/lc_swp_boxed*/
 
     $bg_color = HERITAGE_get_footer_bg_color();
-    $bg_image = ''; //esc_url(ARTEMIS_SWP_get_footer_bg_image());
+    $bg_image = '';
     $color_scheme = HERITAGE_get_footer_color_scheme();
 
     if ( is_active_sidebar('footer-sidebar-1') ||
@@ -84,8 +84,8 @@ if ("0" == $remove_footer) {
 } /*if not remove footer widgets*/
 
 $copyrigth_text = HERITAGE_get_copyrigth_text();
-$copy_bgc = ''; //ARTEMIS_SWP_get_copyright_bgc();
-$copy_cs = ''; //ARTEMIS_SWP_get_copyrigth_color_scheme();
+$copy_bgc = '';
+$copy_cs = '';
 $user_profiles = array();
 $user_profiles = HERITAGE_get_available_social_profiles();
 $header_width = HERITAGE_get_header_footer_width();

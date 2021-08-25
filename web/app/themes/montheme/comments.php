@@ -1,12 +1,4 @@
 <?php
-/**
- * The template for displaying Comments.
- *
- * The area of the page that contains both current comments
- * and the comment form. The actual display of comments is
- * handled by a callback to ARTEMIS_SWP_comment which is
- * located in the lucille/core/comments_template_cbk.php file.
- */
 ?>
 <?php
 if ( !have_comments() && !comments_open(get_the_ID()) )

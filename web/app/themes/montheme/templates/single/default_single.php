@@ -8,7 +8,7 @@
         }
         ?>
 
-        <div class="single_post_title <?php echo esc_attr(/*ARTEMIS_SWP_get_titles_alignment_class())*/ esc_attr($has_thumbnail_class)); ?>">
+        <div class="single_post_title <?php echo esc_attr(esc_attr($has_thumbnail_class)); ?>">
             <h1> <?php the_title(); ?> </h1>
             <?php get_template_part('templates/utils/post_meta');  ?>
         </div>

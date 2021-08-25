@@ -710,7 +710,7 @@ class HERITAGE_Customize {
             .widget_meta a:hover, .widget_pages a:hover, .widget_categories a:hover, .widget_recent_entries a:hover,
             .widget_archive a:hover, .lc_copy_area a:hover, .lc_swp_content a:hover, .lc_sharing_icons a:hover,
             .lc_post_meta a:hover, .post_item:hover > .post_item_details a h2, .lc_blog_masonry_brick.has_thumbnail .lc_post_meta a:hover,
-            .post_item.no_thumbnail .lc_post_meta a:hover, .post_item:hover > a h2, .artemis_cf_error,
+            .post_item.no_thumbnail .lc_post_meta a:hover, .post_item:hover > a h2, .heritage_cf_error,
             .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,
             .woocommerce-message:before, .woocommerce a.remove, .woocommerce-info:before, .woocommerce form .form-row .required,
             .woocommerce form .form-row.woocommerce-invalid label, a.about_paypal, .single_video_item:hover h3, .goto_next_section,
@@ -743,7 +743,7 @@ class HERITAGE_Customize {
             .woocommerce #respond input#submit:hover, input.button:hover, .woocommerce input.button:hover,
             .white_on_black .woocommerce a.button.alt:hover, .woocommerce-info,
             .woocommerce form .form-row.woocommerce-invalid input.input-text, .unslider-nav ol li.unslider-active,
-            input.artemis_cf_input:focus, textarea.artemis_cf_input:focus, .woocommerce .widget_price_filter .price_slider_amount .button:hover,
+            input.heritage_cf_input:focus, textarea.heritage_cf_input:focus, .woocommerce .widget_price_filter .price_slider_amount .button:hover,
             .heritage-miniwishlist .buttons .button
             { border-color: <?php echo esc_html($lc_customize['lc_second_color']); ?> !important; }
 
